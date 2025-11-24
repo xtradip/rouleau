@@ -253,7 +253,7 @@ header {
     left: 0;
 }
 
-.service-content h2 {
+.container h2 {
     font-size: 2.5rem;
     margin-bottom: 2.5rem !important;
     color: var(--primary-color);
