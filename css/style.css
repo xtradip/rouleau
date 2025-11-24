@@ -116,9 +116,7 @@ h3 {
 /* Header & Nav */
 header {
     background-color: var(--primary-dark);
-    /* background-color: #f0f7f0; */
     box-shadow: var(--shadow);
-    /* color: var(--primary-color); */
     color: white;
     position: sticky;
     font-weight: bold;
@@ -136,7 +134,6 @@ header {
 .logo {
     font-size: 2rem;
     font-weight: 500;
-    /* color: var(--primary-color); */
     color: white;
 }
 
@@ -207,7 +204,6 @@ header {
     display: block;
     padding: 0.75rem 1.25rem;
     color: var(--text-dark);
-    /* font-weight: 900; */
     transition: var(--transition);
     border-bottom: 1px solid #f0f0f0;
 }
@@ -237,7 +233,6 @@ header {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: var(--text-dark);
     background-color: white;
     transition: var(--transition);
 }
@@ -245,7 +240,6 @@ header {
 /* Hero Section Improvements */
 .hero {
     min-height: 60vh;
-    /* Taller hero image */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,7 +254,6 @@ header {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
-    /* Darker overlay for better text contrast */
     z-index: 1;
 }
 
@@ -272,7 +265,6 @@ header {
 /* Service Page Improvements */
 .service-content h2 {
     color: var(--primary-color);
-    /* border-bottom: 2px solid var(--accent-color); */
     display: inline-block;
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
@@ -304,6 +296,228 @@ header {
 .service-content p {
     margin-bottom: 1rem;
     color: #444;
+}
+
+/* Reasons Grid - Design harmonieux avec palette du site */
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.reason-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-top: 5px solid var(--primary-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.reason-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, transparent 0%, rgba(46, 125, 50, 0.03) 100%);
+    z-index: 0;
+}
+
+.reason-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.reason-icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.reason-card:hover .reason-icon-box {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.reason-icon {
+    font-size: 2.5rem;
+}
+
+.reason-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    position: relative;
+    z-index: 1;
+}
+
+.reason-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Variantes de couleurs pour chaque carte */
+.reason-card-maladie {
+    border-top-color: #c62828;
+}
+
+.reason-card-maladie .reason-icon-box {
+    background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
+    box-shadow: 0 4px 15px rgba(198, 40, 40, 0.3);
+}
+
+.reason-card-danger {
+    border-top-color: var(--accent-color);
+}
+
+.reason-card-danger .reason-icon-box {
+    background: linear-gradient(135deg, var(--accent-color) 0%, #E65100 100%);
+    box-shadow: 0 4px 15px rgba(255, 109, 0, 0.3);
+}
+
+.reason-card-dommages {
+    border-top-color: var(--secondary-color);
+}
+
+.reason-card-dommages .reason-icon-box {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #5d4037 100%);
+    box-shadow: 0 4px 15px rgba(121, 85, 72, 0.3);
+}
+
+.reason-card-mort {
+    border-top-color: #424242;
+}
+
+.reason-card-mort .reason-icon-box {
+    background: linear-gradient(135deg, #424242 0%, #212121 100%);
+    box-shadow: 0 4px 15px rgba(66, 66, 66, 0.3);
+}
+
+.reason-card-amenagement {
+    border-top-color: var(--primary-color);
+}
+
+.reason-card-amenagement .reason-icon-box {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+}
+
+/* Process Container - Étapes visuelles */
+.process-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.process-step {
+    display: grid;
+    grid-template-columns: 80px 1fr 60px;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.process-step:last-child {
+    grid-template-columns: 80px 1fr;
+}
+
+.process-step:last-child .step-arrow {
+    display: none;
+}
+
+.step-number {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(46, 125, 50, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-step:hover .step-number {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 12px 30px rgba(46, 125, 50, 0.5);
+}
+
+.step-content {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-step:hover .step-content {
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.step-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.step-content h4 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.step-content p {
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.step-arrow {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    text-align: center;
+    font-weight: bold;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
 }
 
 /* Mobile Nav */
@@ -350,6 +564,295 @@ header {
 
     .hero {
         min-height: 50vh;
-        /* Slightly smaller on mobile but still tall */
+    }
+
+    /* Mobile adjustments for reasons grid */
+    .reasons-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Mobile adjustments for process steps */
+    .process-step {
+        grid-template-columns: 60px 1fr;
+        gap: 1rem;
+    }
+
+    .process-step:last-child {
+        grid-template-columns: 60px 1fr;
+    }
+
+    .step-arrow {
+        display: none !important;
+    }
+
+    .step-number {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+    .step-content {
+        padding: 1rem 1.5rem;
+    }
+
+    .step-icon {
+        font-size: 2rem;
+    }
+
+    .step-content h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Benefits Grid - Cartes de bienfaits pour élagage */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.benefit-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.benefit-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    z-index: 0;
+    transition: opacity 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.benefit-card:hover::before {
+    opacity: 0.1;
+}
+
+.benefit-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+    transform: scale(1.15) rotate(5deg);
+}
+
+.benefit-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    position: relative;
+    z-index: 1;
+}
+
+.benefit-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Variantes de couleurs pour les bienfaits */
+.benefit-sante::before {
+    background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);
+}
+
+.benefit-securite::before {
+    background: linear-gradient(135deg, #FF6D00 0%, #E65100 100%);
+}
+
+.benefit-esthetique::before {
+    background: linear-gradient(135deg, #795548 0%, #5d4037 100%);
+}
+
+.benefit-ensoleillement::before {
+    background: linear-gradient(135deg, #FFA726 0%, #FB8C00 100%);
+}
+
+.benefit-production::before {
+    background: linear-gradient(135deg, #66BB6A 0%, #43A047 100%);
+}
+
+/* Techniques Grid - Badges horizontaux */
+.techniques-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0 4rem;
+}
+
+.technique-badge {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.technique-badge:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+    border-color: var(--accent-color);
+}
+
+.technique-number {
+    min-width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+    flex-shrink: 0;
+}
+
+.technique-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.technique-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Timing Section - Section temporelle */
+.timing-section {
+    background: linear-gradient(135deg, #f0f7f0 0%, #e8f5e9 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    text-align: center;
+    border: 2px solid rgba(46, 125, 50, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.timing-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(46, 125, 50, 0.05) 0%, transparent 70%);
+    z-index: 0;
+}
+
+.timing-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.timing-section h3 {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.timing-section p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.timing-highlight {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.season-badge {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    background: white;
+    color: var(--primary-dark);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.season-badge:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile adjustments for elagage page */
+@media (max-width: 768px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .techniques-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .technique-badge {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .timing-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .timing-highlight {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .season-badge {
+        width: 100%;
+        max-width: 250px;
     }
 }

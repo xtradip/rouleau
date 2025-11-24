@@ -36,47 +36,132 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Abattage d'Arbres Sécuritaire et Professionnel</h2>
-            <p>L'abattage d'un arbre est une opération délicate qui nécessite expertise et précision, surtout en milieu
-                urbain comme à <strong>Sherbrooke</strong>. Chez Elagage Urbain TR, nous disposons de l'équipement et du
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Abattage d'Arbres Sécuritaire et
+                Professionnel</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">
+                L'abattage d'un arbre est une opération délicate qui nécessite expertise et précision, surtout en milieu
+                urbain comme à <strong style="color: var(--primary-color);">Sherbrooke</strong>. Chez Elagage Urbain TR,
+                nous disposons de l'équipement et du
                 savoir-faire pour retirer n'importe quel arbre, peu importe sa taille ou son emplacement, sans
                 endommager votre propriété.</p>
 
-            <h3>Quand l'abattage est-il nécessaire ?</h3>
-            <p>Bien que nous privilégions toujours la conservation des arbres, certaines situations rendent l'abattage
-                inévitable :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Maladie incurable :</strong> L'arbre est infecté par des champignons ou des insectes
-                    ravageurs (ex: agrile du frêne) et ne peut être sauvé.</li>
-                <li><strong>Danger imminent :</strong> L'arbre penche dangereusement vers une maison, une ligne
-                    électrique ou une zone passante.</li>
-                <li><strong>Dommages structurels :</strong> Les racines endommagent les fondations, les tuyaux ou les
-                    trottoirs.</li>
-                <li><strong>Mort de l'arbre :</strong> Un arbre mort devient cassant et représente un risque de chute
-                    imprévisible.</li>
-                <li><strong>Nouvel aménagement :</strong> Besoin d'espace pour une construction ou pour laisser la
-                    lumière aux autres végétaux.</li>
-            </ul>
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2rem; color: var(--primary-color);">🌳 Quand
+                l'abattage est-il nécessaire ?</h3>
 
-            <h3>Notre Processus d'Abattage</h3>
-            <p>Nous suivons un protocole strict pour garantir la sécurité de tous :</p>
-            <ol style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Évaluation :</strong> Analyse de l'arbre, de son inclinaison et de l'environnement immédiat.
-                </li>
-                <li><strong>Sécurisation :</strong> Délimitation de la zone de travail et protection des infrastructures
-                    au sol.</li>
-                <li><strong>Démontage (si nécessaire) :</strong> Pour les arbres proches des bâtiments, nous coupons
-                    l'arbre par sections (billots) en les descendant doucement avec des cordages.</li>
-                <li><strong>Abattage directionnel :</strong> Si l'espace le permet, nous faisons tomber l'arbre entier
-                    dans une direction précise.</li>
-                <li><strong>Ébranchage et débitage :</strong> L'arbre est coupé en morceaux maniables.</li>
-                <li><strong>Nettoyage complet :</strong> Nous ramassons tout le bois et les branches, laissant votre
-                    terrain propre.</li>
-            </ol>
+            <!-- Raisons Grid -->
+            <div class="reasons-grid">
+                <div class="reason-card reason-card-maladie">
+                    <div class="reason-icon-box">
+                        <div class="reason-icon">🦠</div>
+                    </div>
+                    <h4>Maladie incurable</h4>
+                    <p>L'arbre est infecté par des champignons ou des insectes ravageurs (ex: agrile du frêne) et ne
+                        peut être sauvé.</p>
+                </div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Obtenir une soumission gratuite</a>
+                <div class="reason-card reason-card-danger">
+                    <div class="reason-icon-box">
+                        <div class="reason-icon">⚠️</div>
+                    </div>
+                    <h4>Danger imminent</h4>
+                    <p>L'arbre penche dangereusement vers une maison, une ligne électrique ou une zone passante.</p>
+                </div>
+
+                <div class="reason-card reason-card-dommages">
+                    <div class="reason-icon-box">
+                        <div class="reason-icon">🏚️</div>
+                    </div>
+                    <h4>Dommages structurels</h4>
+                    <p>Les racines endommagent les fondations, les tuyaux ou les trottoirs.</p>
+                </div>
+
+                <div class="reason-card reason-card-mort">
+                    <div class="reason-icon-box">
+                        <div class="reason-icon">💀</div>
+                    </div>
+                    <h4>Mort de l'arbre</h4>
+                    <p>Un arbre mort devient cassant et représente un risque de chute imprévisible.</p>
+                </div>
+
+                <div class="reason-card reason-card-amenagement">
+                    <div class="reason-icon-box">
+                        <div class="reason-icon">🏗️</div>
+                    </div>
+                    <h4>Nouvel aménagement</h4>
+                    <p>Besoin d'espace pour une construction ou pour laisser la lumière aux autres végétaux.</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 3rem; color: var(--primary-color);">⚙️ Notre
+                Processus d'Abattage en 6 Étapes</h3>
+
+            <!-- Process Steps -->
+            <div class="process-container">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">🔍</div>
+                        <h4>Évaluation</h4>
+                        <p>Analyse de l'arbre, de son inclinaison et de l'environnement immédiat.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">🛡️</div>
+                        <h4>Sécurisation</h4>
+                        <p>Délimitation de la zone de travail et protection des infrastructures au sol.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">🪓</div>
+                        <h4>Démontage</h4>
+                        <p>Pour les arbres proches des bâtiments, nous coupons l'arbre par sections en les descendant
+                            doucement avec des cordages.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-icon">🎯</div>
+                        <h4>Abattage directionnel</h4>
+                        <p>Si l'espace le permet, nous faisons tomber l'arbre entier dans une direction précise.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <div class="step-icon">✂️</div>
+                        <h4>Ébranchage et débitage</h4>
+                        <p>L'arbre est coupé en morceaux maniables pour faciliter le transport.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <div class="step-icon">✨</div>
+                        <h4>Nettoyage complet</h4>
+                        <p>Nous ramassons tout le bois et les branches, laissant votre terrain propre.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Obtenir une soumission gratuite</a>
             </div>
         </div>
     </div>

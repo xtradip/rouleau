@@ -36,44 +36,110 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>L'Art de l'Élagage Professionnel à Sherbrooke</h2>
-            <p>L'élagage n'est pas simplement couper des branches, c'est un soin essentiel pour la vitalité de vos
-                arbres. À <strong>Sherbrooke, Magog et environs</strong>, Elagage Urbain TR applique des techniques
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">L'Art de l'Élagage Professionnel à
+                Sherbrooke</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">
+                L'élagage n'est pas simplement couper des branches, c'est un soin essentiel pour la vitalité de vos
+                arbres. À <strong style="color: var(--primary-color);">Sherbrooke, Magog et environs</strong>, Elagage
+                Urbain TR applique des techniques
                 d'arboriculture modernes pour prolonger la vie de vos arbres tout en assurant votre sécurité.</p>
 
-            <h3>Les Bienfaits d'un Élagage Régulier</h3>
-            <p>Un entretien périodique apporte de nombreux avantages :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Santé accrue :</strong> En retirant les branches mortes ou malades, on empêche la
-                    propagation de la pourriture et des insectes.</li>
-                <li><strong>Sécurité :</strong> L'élimination des branches fragiles réduit considérablement les risques
-                    de chute lors de verglas ou de vents violents.</li>
-                <li><strong>Esthétique et Valeur :</strong> Un arbre bien structuré est plus beau et augmente la valeur
-                    de votre propriété.</li>
-                <li><strong>Ensoleillement :</strong> L'éclaircissement de la cime permet à la lumière de mieux
-                    pénétrer, bénéficiant à votre pelouse et à vos plates-bandes.</li>
-                <li><strong>Production fruitière :</strong> Pour les arbres fruitiers, une taille adaptée stimule la
-                    production de fruits de qualité.</li>
-            </ul>
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2rem; color: var(--primary-color);">🌿 Les
+                Bienfaits d'un Élagage Régulier</h3>
 
-            <h3>Nos Techniques d'Intervention</h3>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Élagage de sécurité :</strong> Retrait prioritaire des branches dangereuses.</li>
-                <li><strong>Élagage d'assainissement :</strong> Suppression du bois mort et des gourmands.</li>
-                <li><strong>Rehaussement de couronne :</strong> Dégagement des branches basses pour libérer l'espace
-                    (trottoir, toiture).</li>
-                <li><strong>Éclaircissage :</strong> Réduction de la densité des branches pour réduire la prise au vent.
-                </li>
-            </ul>
+            <!-- Bienfaits Grid -->
+            <div class="benefits-grid">
+                <div class="benefit-card benefit-sante">
+                    <div class="benefit-icon">💚</div>
+                    <h4>Santé accrue</h4>
+                    <p>En retirant les branches mortes ou malades, on empêche la propagation de la pourriture et des
+                        insectes.</p>
+                </div>
 
-            <h3>Le Meilleur Moment pour Élager</h3>
-            <p>Bien que l'élagage de sécurité puisse se faire en tout temps, certaines périodes sont préférables selon
-                les espèces. En général, la fin de l'hiver (dormance) est idéale pour la plupart des feuillus,
-                favorisant une cicatrisation rapide au printemps.</p>
+                <div class="benefit-card benefit-securite">
+                    <div class="benefit-icon">🛡️</div>
+                    <h4>Sécurité</h4>
+                    <p>L'élimination des branches fragiles réduit considérablement les risques de chute lors de verglas
+                        ou de vents violents.</p>
+                </div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Obtenir une soumission</a>
+                <div class="benefit-card benefit-esthetique">
+                    <div class="benefit-icon">✨</div>
+                    <h4>Esthétique et Valeur</h4>
+                    <p>Un arbre bien structuré est plus beau et augmente la valeur de votre propriété.</p>
+                </div>
+
+                <div class="benefit-card benefit-ensoleillement">
+                    <div class="benefit-icon">☀️</div>
+                    <h4>Ensoleillement</h4>
+                    <p>L'éclaircissement de la cime permet à la lumière de mieux pénétrer, bénéficiant à votre pelouse
+                        et à vos plates-bandes.</p>
+                </div>
+
+                <div class="benefit-card benefit-production">
+                    <div class="benefit-icon">🍎</div>
+                    <h4>Production fruitière</h4>
+                    <p>Pour les arbres fruitiers, une taille adaptée stimule la production de fruits de qualité.</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 2.5rem; color: var(--primary-color);">⚙️ Nos
+                Techniques d'Intervention</h3>
+
+            <!-- Techniques Badges -->
+            <div class="techniques-grid">
+                <div class="technique-badge">
+                    <div class="technique-number">1</div>
+                    <div class="technique-content">
+                        <h4>Élagage de sécurité</h4>
+                        <p>Retrait prioritaire des branches dangereuses</p>
+                    </div>
+                </div>
+
+                <div class="technique-badge">
+                    <div class="technique-number">2</div>
+                    <div class="technique-content">
+                        <h4>Élagage d'assainissement</h4>
+                        <p>Suppression du bois mort et des gourmands</p>
+                    </div>
+                </div>
+
+                <div class="technique-badge">
+                    <div class="technique-number">3</div>
+                    <div class="technique-content">
+                        <h4>Rehaussement de couronne</h4>
+                        <p>Dégagement des branches basses pour libérer l'espace</p>
+                    </div>
+                </div>
+
+                <div class="technique-badge">
+                    <div class="technique-number">4</div>
+                    <div class="technique-content">
+                        <h4>Éclaircissage</h4>
+                        <p>Réduction de la densité pour réduire la prise au vent</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meilleur Moment Section -->
+            <div class="timing-section">
+                <div class="timing-icon">📅</div>
+                <h3>Le Meilleur Moment pour Élager</h3>
+                <p>Bien que l'élagage de sécurité puisse se faire en tout temps, certaines périodes sont préférables
+                    selon
+                    les espèces. En général, <strong>la fin de l'hiver (dormance)</strong> est idéale pour la plupart
+                    des feuillus,
+                    favorisant une cicatrisation rapide au printemps.</p>
+                <div class="timing-highlight">
+                    <span class="season-badge">❄️ Fin d'hiver</span>
+                    <span class="season-badge">🌸 Début printemps</span>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Obtenir une soumission</a>
             </div>
         </div>
     </div>
