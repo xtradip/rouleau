@@ -152,8 +152,8 @@ include 'includes/header.php';
                 broyeuses et matériel de grimpe certifié.</p>
 
             <p style="margin-bottom: 2rem; color: #f0f0f0;">La satisfaction de nos clients est au cœur de nos priorités.
-                Nous offrons un service courtois, ponctuel et transparent. Chaque projet se termine par un nettoyage
-                complet du site, laissant votre terrain impeccable. Contactez-nous dès aujourd'hui pour discuter de vos
+                Nous offrons un service courtois, ponctuel et transparent. Contactez-nous dès aujourd'hui pour discuter
+                de vos
                 besoins en arboriculture – notre équipe se fera un plaisir de vous conseiller et de vous accompagner
                 dans tous vos projets d'entretien d'arbres et d'aménagement paysager.</p>
 

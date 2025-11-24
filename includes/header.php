@@ -39,11 +39,11 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32"
-    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo2.png">
+    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16"
-    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo2.png">
+    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180"
-    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo2.png">
+    href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo-180x180.png">
 
   <!-- Schema.org LocalBusiness -->
   <script type="application/ld+json">
@@ -84,14 +84,14 @@
   <!-- Header -->
   <header>
     <div class="container navbar">
-      <a href="<?php echo isset($base_path) ? $base_path : ''; ?>index.php" class="logo"
+      <a href="<?php echo isset($base_path) ? $base_path : ''; ?>" class="logo"
         style="display: flex; align-items: center; gap: 0.75rem;">
         <img src="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo.png" alt="Élagage Urbain TR Logo"
           style="height: 50px; width: auto;">
         Élagage Urbain TR
       </a>
       <ul class="nav-links">
-        <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>index.php">Accueil</a></li>
+        <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>">Accueil</a></li>
         <li class="dropdown">
           <a href="<?php echo isset($base_path) ? $base_path : ''; ?>index.php#services">Services</a>
           <div class="dropdown-content">
