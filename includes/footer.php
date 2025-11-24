@@ -48,8 +48,8 @@
                 </p>
                 <p style="margin-top: 1rem;"><strong>Heures d'ouverture :</strong></p>
                 <ul style="line-height: 1.8; font-size: 0.9rem;">
-                    <li>Lun - Ven : 7h00 - 17h00</li>
-                    <li>Samedi : 8h00 - 16h00</li>
+                    <li>Lun - Ven : 8h00 - 19h00</li>
+                    <li>Samedi : 9h00 - 12h00</li>
                     <li>Dimanche : Fermé</li>
                 </ul>
             </div>

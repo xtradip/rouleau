@@ -1522,4 +1522,429 @@ header {
     .why-features {
         grid-template-columns: 1fr;
     }
+} 
+ 
+/* Cabling Benefits Grid - Bénéfices du haubanage */
+.cabling-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.cabling-benefit-card {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    border: 3px solid rgba(33, 150, 243, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cabling-benefit-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(33, 150, 243, 0.1) 0%, transparent 70%);
+    z-index: 0;
+}
+
+.cabling-benefit-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(33, 150, 243, 0.3);
+    border-color: #2196F3;
+}
+
+.cabling-benefit-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.cabling-benefit-card:hover .cabling-benefit-icon {
+    transform: scale(1.15) rotate(-5deg);
+}
+
+.cabling-benefit-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #1565C0;
+    position: relative;
+    z-index: 1;
+}
+
+.cabling-benefit-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Warning Signs - Signes d'alerte */
+.warning-signs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.warning-sign-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 152, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(255, 152, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.warning-sign-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(255, 152, 0, 0.25);
+    border-color: var(--accent-color);
+}
+
+.warning-sign-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, var(--accent-color) 0%, #E65100 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 10px rgba(255, 152, 0, 0.3);
+}
+
+.warning-icon {
+    font-size: 1.2rem;
+}
+
+.warning-label {
+    letter-spacing: 0.5px;
+}
+
+.warning-sign-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.warning-sign-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+/* Inspection Section - Section inspection */
+.inspection-section {
+    background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    border: 3px solid #9C27B0;
+    box-shadow: 0 6px 25px rgba(156, 39, 176, 0.2);
+}
+
+.inspection-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inspection-icon {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+.inspection-header h3 {
+    font-size: 1.8rem;
+    color: #6A1B9A;
+    margin: 0;
+}
+
+.inspection-section > p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.inspection-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.inspection-feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inspection-feature:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.inspection-feature-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.inspection-feature span:last-child {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Mobile adjustments for haubanage page */
+@media (max-width: 768px) {
+    .cabling-benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .warning-signs-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .inspection-section {
+        padding: 2rem 1.5rem;
+    }
+    
+    .inspection-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .inspection-header h3 {
+        font-size: 1.5rem;
+    }
+    
+    .inspection-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Haubanage Benefits Grid - Style épuré avec couleurs du site */
+.haubanage-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.haubanage-benefit-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid rgba(46, 125, 50, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.haubanage-benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(46, 125, 50, 0.2);
+    border-color: var(--primary-color);
+}
+
+.haubanage-benefit-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.haubanage-benefit-card:hover .haubanage-benefit-icon {
+    transform: scale(1.15) rotate(-5deg);
+}
+
+.haubanage-benefit-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.haubanage-benefit-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+}
+
+/* Haubanage Warning Signs - Style épuré avec orange */
+.haubanage-warning-signs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.haubanage-warning-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border-top: 5px solid var(--accent-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.haubanage-warning-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(255, 152, 0, 0.2);
+}
+
+.haubanage-warning-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.haubanage-warning-card:hover .haubanage-warning-icon {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.haubanage-warning-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.haubanage-warning-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+/* Haubanage Inspection Section - Style épuré avec vert */
+.haubanage-inspection-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 6px 25px rgba(46, 125, 50, 0.15);
+}
+
+.haubanage-inspection-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.haubanage-inspection-icon {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+.haubanage-inspection-header h3 {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+    margin: 0;
+}
+
+.haubanage-inspection-section > p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.haubanage-inspection-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.haubanage-inspection-feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.haubanage-inspection-feature:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.haubanage-feature-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.haubanage-inspection-feature span:last-child {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Mobile adjustments for haubanage page */
+@media (max-width: 768px) {
+    .haubanage-benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .haubanage-warning-signs {
+        grid-template-columns: 1fr;
+    }
+    
+    .haubanage-inspection-section {
+        padding: 2rem 1.5rem;
+    }
+    
+    .haubanage-inspection-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .haubanage-inspection-header h3 {
+        font-size: 1.5rem;
+    }
+    
+    .haubanage-inspection-features {
+        grid-template-columns: 1fr;
+    }
 }

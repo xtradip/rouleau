@@ -36,40 +36,99 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Haubanage : Sauvez vos Arbres Précieux</h2>
-            <p>Le haubanage est une technique de consolidation qui permet de sauver un arbre présentant une faiblesse
-                structurelle, évitant ainsi un abattage inutile. C'est une "assurance-vie" pour vos arbres matures à
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Haubanage : Sauvez vos Arbres
+                Précieux</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">Le
+                haubanage est une technique de consolidation qui permet de sauver un arbre présentant une faiblesse
+                structurelle, évitant ainsi un abattage inutile. C'est une <strong
+                    style="color: var(--primary-color);">"assurance-vie"</strong> pour vos arbres matures à
                 Sherbrooke.</p>
 
-            <h3>Comment fonctionne le haubanage ?</h3>
-            <p>Cette technique consiste à installer des câbles (haubans) flexibles ou rigides entre les branches
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2.5rem; color: var(--primary-color);">🔗
+                Comment fonctionne le haubanage ?</h3>
+            <p style="text-align: center; font-size: 1.05rem; color: #666; max-width: 700px; margin: 0 auto 3rem;">Cette
+                technique consiste à installer des câbles (haubans) flexibles ou rigides entre les branches
                 principales d'un arbre pour limiter leur mouvement excessif. Cela permet de :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Prévenir les ruptures :</strong> Empêche les fourches faibles de se fendre sous le poids de
-                    la neige, du verglas ou lors de vents violents.</li>
-                <li><strong>Soutenir les branches lourdes :</strong> Aide les branches horizontales très longues à
-                    supporter leur propre poids.</li>
-                <li><strong>Prolonger la vie de l'arbre :</strong> Permet de conserver un arbre majestueux en toute
-                    sécurité pendant encore de nombreuses années.</li>
-            </ul>
 
-            <h3>Signes que votre arbre pourrait avoir besoin d'un haubanage :</h3>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Fourches en "V" serré :</strong> Les jonctions d'écorce incluses sont des points de
-                    faiblesse majeurs.</li>
-                <li><strong>Fissures visibles :</strong> Une fente qui commence à apparaître à la base d'une grosse
-                    branche.</li>
-                <li><strong>Arbre à plusieurs troncs :</strong> Les tiges multiples qui partent du même point sont
-                    souvent fragiles.</li>
-            </ul>
+            <!-- Cabling Benefits Grid -->
+            <div class="haubanage-benefits-grid">
+                <div class="haubanage-benefit-card">
+                    <div class="haubanage-benefit-icon">🛡️</div>
+                    <h4>Prévenir les ruptures</h4>
+                    <p>Empêche les fourches faibles de se fendre sous le poids de la neige, du verglas ou lors de vents
+                        violents</p>
+                </div>
 
-            <h3>Inspection et Installation</h3>
-            <p>Nos arboriculteurs évaluent la structure de l'arbre pour déterminer le type et la position exacte des
-                haubans nécessaires. Nous utilisons du matériel moderne, discret et non invasif pour l'arbre.</p>
+                <div class="haubanage-benefit-card">
+                    <div class="haubanage-benefit-icon">💪</div>
+                    <h4>Soutenir les branches lourdes</h4>
+                    <p>Aide les branches horizontales très longues à supporter leur propre poids</p>
+                </div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Demander une inspection</a>
+                <div class="haubanage-benefit-card">
+                    <div class="haubanage-benefit-icon">🌳</div>
+                    <h4>Prolonger la vie de l'arbre</h4>
+                    <p>Permet de conserver un arbre majestueux en toute sécurité pendant encore de nombreuses années</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 2.5rem; color: var(--accent-color);">⚠️
+                Signes que votre arbre pourrait avoir besoin d'un haubanage</h3>
+
+            <!-- Warning Signs -->
+            <div class="haubanage-warning-signs">
+                <div class="haubanage-warning-card">
+                    <div class="haubanage-warning-icon">⚠️</div>
+                    <h4>Fourches en "V" serré</h4>
+                    <p>Les jonctions d'écorce incluses sont des points de faiblesse majeurs</p>
+                </div>
+
+                <div class="haubanage-warning-card">
+                    <div class="haubanage-warning-icon">⚠️</div>
+                    <h4>Fissures visibles</h4>
+                    <p>Une fente qui commence à apparaître à la base d'une grosse branche</p>
+                </div>
+
+                <div class="haubanage-warning-card">
+                    <div class="haubanage-warning-icon">⚠️</div>
+                    <h4>Arbre à plusieurs troncs</h4>
+                    <p>Les tiges multiples qui partent du même point sont souvent fragiles</p>
+                </div>
+            </div>
+
+            <!-- Inspection Section -->
+            <div class="haubanage-inspection-section">
+                <div class="haubanage-inspection-header">
+                    <div class="haubanage-inspection-icon">🔍</div>
+                    <h3>Inspection et Installation</h3>
+                </div>
+                <p>Nos arboriculteurs évaluent la structure de l'arbre pour déterminer le type et la position exacte des
+                    haubans nécessaires. Nous utilisons du <strong>matériel moderne, discret et non invasif</strong>
+                    pour l'arbre.</p>
+                <div class="haubanage-inspection-features">
+                    <div class="haubanage-inspection-feature">
+                        <span class="haubanage-feature-icon">📋</span>
+                        <span>Évaluation structurelle complète</span>
+                    </div>
+                    <div class="haubanage-inspection-feature">
+                        <span class="haubanage-feature-icon">🔧</span>
+                        <span>Matériel professionnel moderne</span>
+                    </div>
+                    <div class="haubanage-inspection-feature">
+                        <span class="haubanage-feature-icon">🎯</span>
+                        <span>Installation précise et discrète</span>
+                    </div>
+                    <div class="haubanage-inspection-feature">
+                        <span class="haubanage-feature-icon">📅</span>
+                        <span>Suivi annuel recommandé</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Demander une inspection</a>
             </div>
         </div>
     </div>
