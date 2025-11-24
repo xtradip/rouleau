@@ -1,0 +1,145 @@
+<?php
+// Page configuration
+$page_title = "Élagage d'Arbres Sherbrooke | Elagage Urbain TR";
+$page_description = "Service d'élagage d'arbres professionnel à Sherbrooke. Améliorez la santé et l'esthétique de vos arbres. Élagage de sécurité et d'entretien.";
+$base_path = "../";
+$css_path = "../";
+
+include '../includes/header.php';
+?>
+
+<section class="hero section-padding"
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/elagage.png'); background-size: cover; background-position: center; color: white; text-align: center;">
+    <div class="container">
+        <h1>Élagage d'Arbres en Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Pour des arbres plus forts, plus beaux et
+            plus sûrs.</p>
+    </div>
+</section>
+
+<!-- TLDR Section -->
+<section style="background-color: #f0f7f0; padding: 2rem 0;">
+    <div class="container">
+        <div
+            style="max-width: 800px; margin: 0 auto; padding: 1.5rem; background: white; border-left: 4px solid var(--primary-color); border-radius: 4px;">
+            <h3 style="margin-top: 0; color: var(--primary-color);">📋 En Bref</h3>
+            <ul style="margin: 0; padding-left: 1.5rem; line-height: 1.8;">
+                <li><strong>Service :</strong> Élagage professionnel d'arbres à Sherbrooke et Estrie</li>
+                <li><strong>Zone desservie :</strong> Sherbrooke, Magog, Orford, North Hatley et environs</li>
+                <li><strong>Meilleure période :</strong> Fin d'hiver (dormance) pour la plupart des feuillus</li>
+                <li><strong>Tarif :</strong> À partir de 200$ - Soumission gratuite selon hauteur et complexité</li>
+                <li><strong>Inclus :</strong> Évaluation, élagage selon normes, ramassage des branches</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container service-content">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h2>L'Art de l'Élagage Professionnel à Sherbrooke</h2>
+            <p>L'élagage n'est pas simplement couper des branches, c'est un soin essentiel pour la vitalité de vos
+                arbres. À <strong>Sherbrooke, Magog et environs</strong>, Elagage Urbain TR applique des techniques
+                d'arboriculture modernes pour prolonger la vie de vos arbres tout en assurant votre sécurité.</p>
+
+            <h3>Les Bienfaits d'un Élagage Régulier</h3>
+            <p>Un entretien périodique apporte de nombreux avantages :</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
+                <li><strong>Santé accrue :</strong> En retirant les branches mortes ou malades, on empêche la
+                    propagation de la pourriture et des insectes.</li>
+                <li><strong>Sécurité :</strong> L'élimination des branches fragiles réduit considérablement les risques
+                    de chute lors de verglas ou de vents violents.</li>
+                <li><strong>Esthétique et Valeur :</strong> Un arbre bien structuré est plus beau et augmente la valeur
+                    de votre propriété.</li>
+                <li><strong>Ensoleillement :</strong> L'éclaircissement de la cime permet à la lumière de mieux
+                    pénétrer, bénéficiant à votre pelouse et à vos plates-bandes.</li>
+                <li><strong>Production fruitière :</strong> Pour les arbres fruitiers, une taille adaptée stimule la
+                    production de fruits de qualité.</li>
+            </ul>
+
+            <h3>Nos Techniques d'Intervention</h3>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
+                <li><strong>Élagage de sécurité :</strong> Retrait prioritaire des branches dangereuses.</li>
+                <li><strong>Élagage d'assainissement :</strong> Suppression du bois mort et des gourmands.</li>
+                <li><strong>Rehaussement de couronne :</strong> Dégagement des branches basses pour libérer l'espace
+                    (trottoir, toiture).</li>
+                <li><strong>Éclaircissage :</strong> Réduction de la densité des branches pour réduire la prise au vent.
+                </li>
+            </ul>
+
+            <h3>Le Meilleur Moment pour Élager</h3>
+            <p>Bien que l'élagage de sécurité puisse se faire en tout temps, certaines périodes sont préférables selon
+                les espèces. En général, la fin de l'hiver (dormance) est idéale pour la plupart des feuillus,
+                favorisant une cicatrisation rapide au printemps.</p>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="tel:8192128222" class="btn btn-accent">Obtenir une soumission</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section style="background-color: var(--bg-off-white); padding: 4rem 0;">
+    <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Questions Fréquentes sur l'Élagage d'Arbres</h2>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Quelle est la différence entre élagage
+                    et émondage ?</h3>
+                <p>L'élagage est une coupe sélective et raisonnée qui respecte la structure naturelle de l'arbre.
+                    L'émondage (ou étêtage) consiste à couper drastiquement le sommet de l'arbre, une pratique
+                    déconseillée car elle affaiblit l'arbre et favorise les maladies. Nous pratiquons uniquement
+                    l'élagage professionnel.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">À quelle fréquence dois-je faire élaguer
+                    mes arbres à Sherbrooke ?</h3>
+                <p>Cela dépend de l'espèce et de l'âge de l'arbre. En général, un élagage d'entretien tous les 3 à 5 ans
+                    est recommandé pour les arbres matures. Les jeunes arbres peuvent nécessiter une taille de formation
+                    plus fréquente. Un élagage de sécurité doit être fait dès qu'une branche dangereuse est identifiée.
+                </p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Combien coûte l'élagage d'un arbre ?
+                </h3>
+                <p>Le prix varie selon la hauteur de l'arbre, le nombre de branches à couper et l'accessibilité. Un
+                    petit arbre peut coûter entre 200$ et 500$, tandis qu'un grand arbre mature peut atteindre 1000$ à
+                    2500$. Nous offrons des soumissions gratuites et détaillées.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Puis-je élaguer mes arbres moi-même ?
+                </h3>
+                <p>Pour les petites branches accessibles du sol, oui. Cependant, pour les branches en hauteur ou de gros
+                    diamètre, nous recommandons fortement de faire appel à des professionnels. L'élagage en hauteur
+                    comporte des risques importants et nécessite un équipement spécialisé et une formation adéquate.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">L'élagage peut-il tuer mon arbre ?</h3>
+                <p>Un élagage excessif ou mal exécuté peut effectivement affaiblir ou tuer un arbre. C'est pourquoi il
+                    est crucial de faire appel à des arboriculteurs certifiés qui connaissent les bonnes pratiques. Nous
+                    ne retirons jamais plus de 25% du feuillage en une seule intervention pour préserver la santé de
+                    l'arbre.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Ramassez-vous les branches après
+                    l'élagage ?</h3>
+                <p>Absolument ! Notre service inclut toujours le ramassage complet des branches et le nettoyage du site.
+                    Nous pouvons également broyer les branches en copeaux si vous souhaitez les utiliser comme paillis
+                    dans vos plates-bandes.</p>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="tel:8192128222" class="btn btn-accent">Contactez-nous : 819-212-8222</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include '../includes/footer.php'; ?>
