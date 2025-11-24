@@ -13,7 +13,9 @@ include 'includes/header.php';
     style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/abattage2.jpeg'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
         <h1>Services d'Arboriculture Professionnels à Sherbrooke</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Abattage, Élagage, Plantation et Soins
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Abattage, Élagage, Taillage de Haies de
+            Cèdres,
+            Plantation et Soins
             aux Arbres en Estrie.</p>
         <a href="tel:8192128222" class="btn btn-accent" style="display: inline-flex; align-items: center; gap: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
