@@ -36,43 +36,115 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Taillage de Haies et d'Arbustes à Sherbrooke</h2>
-            <p>Une haie bien entretenue est le secret d'une propriété intime et soignée. Chez Elagage Urbain TR, nous
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Taillage de Haies et d'Arbustes à
+                Sherbrooke</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">Une
+                haie bien entretenue est le secret d'une propriété intime et soignée. Chez <strong
+                    style="color: var(--primary-color);">Elagage Urbain TR</strong>, nous
                 sommes experts dans le taillage de cèdres et d'arbustes ornementaux, garantissant des lignes droites et
                 une densité optimale.</p>
 
-            <h3>L'Importance d'un Taillage Annuel</h3>
-            <p>Pour conserver une haie de cèdres fournie et en santé, un entretien régulier est indispensable :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Contrôle de la croissance :</strong> Empêche la haie de devenir trop large et d'empiéter sur
-                    votre terrain.</li>
-                <li><strong>Densification :</strong> La taille stimule le feuillage à l'intérieur et sur les côtés,
-                    créant un écran visuel opaque.</li>
-                <li><strong>Santé :</strong> Permet de retirer les parties mortes et favorise l'aération.</li>
-                <li><strong>Esthétique :</strong> Une coupe nette donne instantanément un aspect soigné à votre
-                    aménagement paysager.</li>
-            </ul>
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2rem; color: var(--primary-color);">✂️
+                L'Importance d'un Taillage Annuel</h3>
 
-            <h3>Nos Services de Taille</h3>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Taille de formation :</strong> Pour les jeunes haies, afin de guider leur croissance future.
-                </li>
-                <li><strong>Taille d'entretien :</strong> Coupe annuelle (généralement fin juin à septembre) pour
-                    maintenir la forme.</li>
-                <li><strong>Rabattage (Rajeunissement) :</strong> Intervention plus drastique pour récupérer une haie
-                    négligée (selon l'espèce).</li>
-                <li><strong>Sculpture d'arbustes :</strong> Taille ornementale pour vos buissons et petits arbres
-                    décoratifs.</li>
-            </ul>
+            <!-- Importance Grid -->
+            <div class="importance-grid">
+                <div class="importance-card">
+                    <div class="importance-icon">📏</div>
+                    <h4>Contrôle de la croissance</h4>
+                    <p>Empêche la haie de devenir trop large et d'empiéter sur votre terrain</p>
+                </div>
 
-            <h3>Pourquoi faire appel à des professionnels ?</h3>
-            <p>Tailler une haie demande de la patience, de la précision et le bon équipement. Nos équipes disposent de
-                taille-haies professionnels et d'échafaudages pour travailler en hauteur en toute sécurité. De plus,
-                nous nous occupons du ramassage complet des retailles !</p>
+                <div class="importance-card">
+                    <div class="importance-icon">🌳</div>
+                    <h4>Densification</h4>
+                    <p>La taille stimule le feuillage à l'intérieur et sur les côtés, créant un écran visuel opaque</p>
+                </div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Réserver votre taillage</a>
+                <div class="importance-card">
+                    <div class="importance-icon">💪</div>
+                    <h4>Santé</h4>
+                    <p>Permet de retirer les parties mortes et favorise l'aération</p>
+                </div>
+
+                <div class="importance-card">
+                    <div class="importance-icon">🎨</div>
+                    <h4>Esthétique</h4>
+                    <p>Une coupe nette donne instantanément un aspect soigné à votre aménagement paysager</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 2.5rem; color: var(--primary-color);">🌿 Nos
+                Services de Taille</h3>
+
+            <!-- Services Grid -->
+            <div class="trimming-services-grid">
+                <div class="trimming-service-card">
+                    <div class="service-header">
+                        <div class="service-icon-trim">🌱</div>
+                        <h4>Taille de formation</h4>
+                    </div>
+                    <p>Pour les jeunes haies, afin de guider leur croissance future</p>
+                </div>
+
+                <div class="trimming-service-card">
+                    <div class="service-header">
+                        <div class="service-icon-trim">✂️</div>
+                        <h4>Taille d'entretien</h4>
+                    </div>
+                    <p>Coupe annuelle (généralement fin juin à septembre) pour maintenir la forme</p>
+                </div>
+
+                <div class="trimming-service-card">
+                    <div class="service-header">
+                        <div class="service-icon-trim">🔄</div>
+                        <h4>Rabattage</h4>
+                    </div>
+                    <p>Intervention plus drastique pour récupérer une haie négligée (selon l'espèce)</p>
+                </div>
+
+                <div class="trimming-service-card">
+                    <div class="service-header">
+                        <div class="service-icon-trim">🎭</div>
+                        <h4>Sculpture d'arbustes</h4>
+                    </div>
+                    <p>Taille ornementale pour vos buissons et petits arbres décoratifs</p>
+                </div>
+            </div>
+
+            <!-- Professional Section -->
+            <div class="professional-section">
+                <div class="professional-header">
+                    <div class="professional-icon">👷</div>
+                    <h3>Pourquoi faire appel à des professionnels ?</h3>
+                </div>
+                <p>Tailler une haie demande de la patience, de la précision et le bon équipement. Nos équipes disposent
+                    de
+                    taille-haies professionnels et d'échafaudages pour travailler en hauteur en toute sécurité.</p>
+                <div class="professional-benefits">
+                    <div class="pro-benefit">
+                        <span class="check-icon">✓</span>
+                        <span>Équipement professionnel (taille-haies à perche, échafaudages)</span>
+                    </div>
+                    <div class="pro-benefit">
+                        <span class="check-icon">✓</span>
+                        <span>Expertise et précision pour des lignes parfaitement droites</span>
+                    </div>
+                    <div class="pro-benefit">
+                        <span class="check-icon">✓</span>
+                        <span>Travail en hauteur sécuritaire</span>
+                    </div>
+                    <div class="pro-benefit">
+                        <span class="check-icon">✓</span>
+                        <span>Ramassage complet des retailles</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Réserver votre taillage</a>
             </div>
         </div>
     </div>

@@ -247,50 +247,15 @@ header {
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-}
-
-.hero .container {
-    position: relative;
-    z-index: 2;
-}
-
-/* Service Page Improvements */
-.service-content h2 {
-    color: var(--primary-color);
-    display: inline-block;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
-}
-
-.service-content h3 {
-    color: var(--primary-color);
-    margin-top: 2rem;
-}
-
-.service-content ul {
-    margin: 0rem !important;
-}
-
-.service-content ul li {
-    position: relative;
-    padding-left: 1.5rem;
-    margin-bottom: 0.8rem;
-}
-
-.service-content ul li::before {
-    content: '✓';
-    color: var(--primary-color);
     font-weight: bold;
     position: absolute;
     left: 0;
+}
+
+.service-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem !important;
+    color: var(--primary-color);
 }
 
 .service-content p {
@@ -854,5 +819,707 @@ header {
     .season-badge {
         width: 100%;
         max-width: 250px;
+    }
+}
+
+/* Importance Grid - Cartes d'importance pour taillage */
+.importance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.importance-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid rgba(46, 125, 50, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    text-align: center;
+}
+
+.importance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-color);
+}
+
+.importance-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.importance-card:hover .importance-icon {
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.importance-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.importance-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+}
+
+/* Trimming Services Grid - Services de taille */
+.trimming-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.trimming-service-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trimming-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.service-icon-trim {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.service-header h4 {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+
+.trimming-service-card p {
+    padding: 1.5rem;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Professional Section - Section professionnelle */
+.professional-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 6px 25px rgba(46, 125, 50, 0.15);
+}
+
+.professional-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.professional-icon {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+.professional-header h3 {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+    margin: 0;
+}
+
+.professional-section>p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.professional-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pro-benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pro-benefit:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.check-icon {
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.pro-benefit span:last-child {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Mobile adjustments for taillage page */
+@media (max-width: 768px) {
+    .importance-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .trimming-services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .professional-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .professional-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .professional-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .professional-benefits {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Plantation Timeline - Timeline horizontale */
+.plantation-timeline {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2rem 0 4rem;
+    position: relative;
+}
+
+.timeline-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.timeline-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 6px 20px rgba(46, 125, 50, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-step:hover .timeline-icon {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(46, 125, 50, 0.5);
+}
+
+.timeline-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-step:hover .timeline-content {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.timeline-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+}
+
+.timeline-connector {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    align-self: flex-start;
+    margin-top: 38px;
+    position: relative;
+}
+
+.timeline-connector::after {
+    content: '→';
+    position: absolute;
+    right: -10px;
+    top: -12px;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Planting Benefits Grid - Cartes de bénéfices nature */
+.planting-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.planting-benefit-card {
+    background: linear-gradient(135deg, #f1f8f4 0%, #e8f5e9 100%);
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    border: 2px solid rgba(46, 125, 50, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.planting-benefit-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(46, 125, 50, 0.05) 0%, transparent 70%);
+    z-index: 0;
+}
+
+.planting-benefit-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(46, 125, 50, 0.2);
+    border-color: var(--primary-color);
+}
+
+.planting-benefit-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.planting-benefit-card:hover .planting-benefit-icon {
+    transform: scale(1.15) rotate(-5deg);
+}
+
+.planting-benefit-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    position: relative;
+    z-index: 1;
+}
+
+.planting-benefit-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Care Guide Section - Section guide de soins */
+.care-guide-section {
+    background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    border: 3px solid #FFA726;
+    box-shadow: 0 6px 25px rgba(255, 167, 38, 0.2);
+}
+
+.care-guide-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.care-guide-icon {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+.care-guide-header h3 {
+    font-size: 1.8rem;
+    color: #E65100;
+    margin: 0;
+}
+
+.care-guide-section>p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.care-guide-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.care-feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.care-feature:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.care-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.care-feature span:last-child {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Mobile adjustments for plantation page */
+@media (max-width: 768px) {
+    .plantation-timeline {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .timeline-connector {
+        display: none;
+    }
+
+    .timeline-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .planting-benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .care-guide-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .care-guide-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .care-guide-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .care-guide-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Clearing Services Grid - Services de déboisement */
+.clearing-services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearing-service-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    border: 3px solid rgba(121, 85, 72, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.clearing-service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, var(--secondary-color) 0%, #5d4037 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.clearing-service-card:hover::before {
+    transform: scaleX(1);
+}
+
+.clearing-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(121, 85, 72, 0.25);
+    border-color: var(--secondary-color);
+}
+
+.clearing-service-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.clearing-service-card:hover .clearing-service-icon {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.clearing-service-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.clearing-service-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+/* Eco Options - Options écologiques */
+.eco-options-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+}
+
+.eco-option-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.eco-option-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.eco-option-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.eco-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.eco-option-header h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+
+.eco-option-card p {
+    padding: 2rem;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.eco-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Why Choose Section - Section avantages */
+.why-choose-section {
+    background: linear-gradient(135deg, #f5f5f5 0%, #eeeeee 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 4rem 0 2rem;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 8px 30px rgba(121, 85, 72, 0.2);
+}
+
+.why-choose-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.why-icon {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+.why-choose-header h3 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+.why-choose-section>p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.why-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.why-feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--secondary-color);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-feature:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+}
+
+.why-feature-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.why-feature span:last-child {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Mobile adjustments for deboisement page */
+@media (max-width: 768px) {
+    .clearing-services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .eco-options-container {
+        grid-template-columns: 1fr;
+    }
+
+    .why-choose-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .why-choose-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-choose-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .why-features {
+        grid-template-columns: 1fr;
     }
 }

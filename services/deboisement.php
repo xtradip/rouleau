@@ -36,39 +36,107 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Déboisement et Nettoyage de Terrain</h2>
-            <p>Vous avez un projet de construction neuve, d'agrandissement ou de vente de terrain ? Elagage Urbain TR
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Déboisement et Nettoyage de Terrain
+            </h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">Vous
+                avez un projet de construction neuve, d'agrandissement ou de vente de terrain ? <strong
+                    style="color: var(--primary-color);">Elagage Urbain TR</strong>
                 offre un service complet de déboisement et de préparation de terrain à Sherbrooke et en Estrie.</p>
 
-            <h3>Une Approche Respectueuse et Efficace</h3>
-            <p>Le déboisement ne signifie pas tout raser aveuglément. Nous travaillons avec vous pour :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Déboisement sélectif :</strong> Conservation des arbres de valeur qui peuvent être intégrés
-                    à votre futur aménagement.</li>
-                <li><strong>Coupe à blanc :</strong> Nettoyage complet pour l'emprise d'un bâtiment ou d'une route.</li>
-                <li><strong>Débroussaillage :</strong> Nettoyage des sous-bois, ronces et petits arbustes envahissants.
-                </li>
-                <li><strong>Essouchement :</strong> Retrait ou rognage des souches pour laisser un terrain plat et prêt
-                    à construire.</li>
-            </ul>
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2rem; color: var(--primary-color);">🌲 Une
+                Approche Respectueuse et Efficace</h3>
+            <p style="text-align: center; font-size: 1.05rem; color: #666; max-width: 700px; margin: 0 auto 3rem;">Le
+                déboisement ne signifie pas tout raser aveuglément. Nous travaillons avec vous pour :</p>
 
-            <h3>Gestion du Bois et des Résidus</h3>
-            <p>Nous nous soucions de l'environnement :</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Valorisation du bois :</strong> Les billots de qualité sont récupérés pour le bois de
-                    chauffage ou de sciage.</li>
-                <li><strong>Broyage sur place :</strong> Les branches peuvent être transformées en copeaux (paillis)
-                    laissés sur place pour enrichir le sol ou évacués selon votre préférence.</li>
-            </ul>
+            <!-- Clearing Services Grid -->
+            <div class="clearing-services-grid">
+                <div class="clearing-service-card">
+                    <div class="clearing-service-icon">🎯</div>
+                    <h4>Déboisement sélectif</h4>
+                    <p>Conservation des arbres de valeur qui peuvent être intégrés à votre futur aménagement</p>
+                </div>
 
-            <h3>Pourquoi nous choisir pour votre projet ?</h3>
-            <p>Nous disposons de la machinerie lourde nécessaire pour les grands travaux, mais aussi de l'agilité pour
-                les terrains résidentiels plus restreints. Notre travail est rapide, sécuritaire et conforme aux
-                réglementations municipales.</p>
+                <div class="clearing-service-card">
+                    <div class="clearing-service-icon">🪓</div>
+                    <h4>Coupe à blanc</h4>
+                    <p>Nettoyage complet pour l'emprise d'un bâtiment ou d'une route</p>
+                </div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Demander une estimation</a>
+                <div class="clearing-service-card">
+                    <div class="clearing-service-icon">🌿</div>
+                    <h4>Débroussaillage</h4>
+                    <p>Nettoyage des sous-bois, ronces et petits arbustes envahissants</p>
+                </div>
+
+                <div class="clearing-service-card">
+                    <div class="clearing-service-icon">🔨</div>
+                    <h4>Essouchement</h4>
+                    <p>Retrait ou rognage des souches pour laisser un terrain plat et prêt à construire</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 2.5rem; color: var(--primary-color);">♻️
+                Gestion du Bois et des Résidus</h3>
+            <p style="text-align: center; font-size: 1.05rem; color: #666; max-width: 700px; margin: 0 auto 2rem;">Nous
+                nous soucions de l'environnement :</p>
+
+            <!-- Eco Options -->
+            <div class="eco-options-container">
+                <div class="eco-option-card">
+                    <div class="eco-option-header">
+                        <div class="eco-icon">🪵</div>
+                        <h4>Valorisation du bois</h4>
+                    </div>
+                    <p>Les billots de qualité sont récupérés pour le bois de chauffage ou de sciage</p>
+                    <div class="eco-badge">Recyclage</div>
+                </div>
+
+                <div class="eco-option-card">
+                    <div class="eco-option-header">
+                        <div class="eco-icon">🌱</div>
+                        <h4>Broyage sur place</h4>
+                    </div>
+                    <p>Les branches peuvent être transformées en copeaux (paillis) laissés sur place pour enrichir le
+                        sol ou évacués selon votre préférence</p>
+                    <div class="eco-badge">Écologique</div>
+                </div>
+            </div>
+
+            <!-- Why Choose Us Section -->
+            <div class="why-choose-section">
+                <div class="why-choose-header">
+                    <div class="why-icon">⚡</div>
+                    <h3>Pourquoi nous choisir pour votre projet ?</h3>
+                </div>
+                <p>Nous disposons de la machinerie lourde nécessaire pour les grands travaux, mais aussi de l'agilité
+                    pour
+                    les terrains résidentiels plus restreints. Notre travail est <strong>rapide, sécuritaire et conforme
+                        aux
+                        réglementations municipales</strong>.</p>
+                <div class="why-features">
+                    <div class="why-feature">
+                        <span class="why-feature-icon">🚜</span>
+                        <span>Machinerie lourde professionnelle</span>
+                    </div>
+                    <div class="why-feature">
+                        <span class="why-feature-icon">🎯</span>
+                        <span>Agilité pour terrains résidentiels</span>
+                    </div>
+                    <div class="why-feature">
+                        <span class="why-feature-icon">⚡</span>
+                        <span>Travail rapide et efficace</span>
+                    </div>
+                    <div class="why-feature">
+                        <span class="why-feature-icon">✅</span>
+                        <span>Conforme aux réglementations</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Demander une estimation</a>
             </div>
         </div>
     </div>

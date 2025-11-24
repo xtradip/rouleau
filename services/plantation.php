@@ -36,41 +36,126 @@ include '../includes/header.php';
 
 <section class="section-padding">
     <div class="container service-content">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Plantation d'Arbres : Un Investissement pour l'Avenir</h2>
-            <p>Planter un arbre, c'est ajouter de la valeur à votre propriété pour des décennies. Que vous cherchiez de
-                l'ombre, de l'intimité ou simplement de la beauté, Elagage Urbain TR vous accompagne de la sélection à
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Plantation d'Arbres : Un
+                Investissement pour l'Avenir</h2>
+            <p style="text-align: center; font-size: 1.1rem; color: #666; max-width: 800px; margin: 0 auto 3rem;">
+                Planter un arbre, c'est ajouter de la valeur à votre propriété pour des décennies. Que vous cherchiez de
+                l'ombre, de l'intimité ou simplement de la beauté, <strong style="color: var(--primary-color);">Elagage
+                    Urbain TR</strong> vous accompagne de la sélection à
                 la mise en terre.</p>
 
-            <h3>Notre Service de Consultation et Plantation</h3>
-            <p>Le succès d'une plantation réside dans le principe : "Le bon arbre au bon endroit".</p>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Analyse du site :</strong> Nous évaluons votre type de sol, l'ensoleillement, l'espace
-                    disponible et la présence de fils électriques.</li>
-                <li><strong>Choix des essences :</strong> Nous vous conseillons des espèces adaptées au climat de
-                    l'Estrie et résistantes aux maladies.</li>
-                <li><strong>Plantation professionnelle :</strong> Creusage de la fosse adéquate, amendement du sol,
-                    tuteurage si nécessaire et paillage.</li>
-                <li><strong>Transplantation :</strong> Déplacement d'arbres existants vers un meilleur emplacement
-                    (selon la taille).</li>
-            </ul>
+            <h3 style="text-align: center; font-size: 2rem; margin: 4rem 0 2.5rem; color: var(--primary-color);">🌱
+                Notre Service de Consultation et Plantation</h3>
+            <p style="text-align: center; font-size: 1.05rem; color: #666; max-width: 700px; margin: 0 auto 3rem;">Le
+                succès d'une plantation réside dans le principe : <strong>"Le bon arbre au bon endroit"</strong></p>
 
-            <h3>Pourquoi planter des arbres ?</h3>
-            <ul style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
-                <li><strong>Économie d'énergie :</strong> Un arbre bien placé peut réduire vos coûts de climatisation en
-                    été et servir de brise-vent en hiver.</li>
-                <li><strong>Environnement :</strong> Les arbres filtrent l'air, produisent de l'oxygène et réduisent les
-                    îlots de chaleur urbains.</li>
-                <li><strong>Intimité :</strong> Créez un écran naturel contre les voisins ou la rue.</li>
-                <li><strong>Bien-être :</strong> La présence d'arbres réduit le stress et embellit le cadre de vie.</li>
-            </ul>
+            <!-- Plantation Process Timeline -->
+            <div class="plantation-timeline">
+                <div class="timeline-step">
+                    <div class="timeline-icon">🔍</div>
+                    <div class="timeline-content">
+                        <h4>Analyse du site</h4>
+                        <p>Nous évaluons votre type de sol, l'ensoleillement, l'espace disponible et la présence de fils
+                            électriques</p>
+                    </div>
+                </div>
 
-            <h3>Soins Après-Plantation</h3>
-            <p>Nous ne vous laissons pas seul après la plantation. Nous vous fournissons un guide d'entretien complet
-                (arrosage, fertilisation) pour assurer la reprise vigoureuse de vos nouveaux arbres.</p>
+                <div class="timeline-connector"></div>
 
-            <div class="text-center" style="margin-top: 3rem;">
-                <a href="tel:8192128222" class="btn btn-accent">Planifier une plantation</a>
+                <div class="timeline-step">
+                    <div class="timeline-icon">🌳</div>
+                    <div class="timeline-content">
+                        <h4>Choix des essences</h4>
+                        <p>Nous vous conseillons des espèces adaptées au climat de l'Estrie et résistantes aux maladies
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-connector"></div>
+
+                <div class="timeline-step">
+                    <div class="timeline-icon">🏗️</div>
+                    <div class="timeline-content">
+                        <h4>Plantation professionnelle</h4>
+                        <p>Creusage de la fosse adéquate, amendement du sol, tuteurage si nécessaire et paillage</p>
+                    </div>
+                </div>
+
+                <div class="timeline-connector"></div>
+
+                <div class="timeline-step">
+                    <div class="timeline-icon">🔄</div>
+                    <div class="timeline-content">
+                        <h4>Transplantation</h4>
+                        <p>Déplacement d'arbres existants vers un meilleur emplacement (selon la taille)</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; font-size: 2rem; margin: 5rem 0 2.5rem; color: var(--primary-color);">🌍
+                Pourquoi planter des arbres ?</h3>
+
+            <!-- Benefits Grid -->
+            <div class="planting-benefits-grid">
+                <div class="planting-benefit-card">
+                    <div class="planting-benefit-icon">💰</div>
+                    <h4>Économie d'énergie</h4>
+                    <p>Un arbre bien placé peut réduire vos coûts de climatisation en été et servir de brise-vent en
+                        hiver</p>
+                </div>
+
+                <div class="planting-benefit-card">
+                    <div class="planting-benefit-icon">🌿</div>
+                    <h4>Environnement</h4>
+                    <p>Les arbres filtrent l'air, produisent de l'oxygène et réduisent les îlots de chaleur urbains</p>
+                </div>
+
+                <div class="planting-benefit-card">
+                    <div class="planting-benefit-icon">🏡</div>
+                    <h4>Intimité</h4>
+                    <p>Créez un écran naturel contre les voisins ou la rue</p>
+                </div>
+
+                <div class="planting-benefit-card">
+                    <div class="planting-benefit-icon">😊</div>
+                    <h4>Bien-être</h4>
+                    <p>La présence d'arbres réduit le stress et embellit le cadre de vie</p>
+                </div>
+            </div>
+
+            <!-- Care Guide Section -->
+            <div class="care-guide-section">
+                <div class="care-guide-header">
+                    <div class="care-guide-icon">📖</div>
+                    <h3>Soins Après-Plantation</h3>
+                </div>
+                <p>Nous ne vous laissons pas seul après la plantation. Nous vous fournissons un <strong>guide
+                        d'entretien complet</strong> (arrosage, fertilisation) pour assurer la reprise vigoureuse de vos
+                    nouveaux arbres.</p>
+                <div class="care-guide-features">
+                    <div class="care-feature">
+                        <span class="care-icon">💧</span>
+                        <span>Guide d'arrosage personnalisé</span>
+                    </div>
+                    <div class="care-feature">
+                        <span class="care-icon">🌱</span>
+                        <span>Conseils de fertilisation</span>
+                    </div>
+                    <div class="care-feature">
+                        <span class="care-icon">🛡️</span>
+                        <span>Protection hivernale</span>
+                    </div>
+                    <div class="care-feature">
+                        <span class="care-icon">📞</span>
+                        <span>Support continu</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="tel:8192128222" class="btn btn-accent" style="font-size: 1.2rem; padding: 1rem 2.5rem;">📞
+                    Planifier une plantation</a>
             </div>
         </div>
     </div>
