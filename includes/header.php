@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-CA">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,29 @@
   </title>
   <meta name="description"
     content="<?php echo isset($page_description) ? $page_description : 'Expert en abattage, élagage, taillage et plantation d\'arbres à Sherbrooke et en Estrie. Service professionnel et sécuritaire. Soumission gratuite au 819-212-8222.'; ?>">
+  <meta name="keywords"
+    content="<?php echo isset($page_keywords) ? $page_keywords : 'élagage Sherbrooke, abattage arbres Estrie, arboriculteur Sherbrooke, taillage haies, plantation arbres, déboisement, haubanage, service arboriculture Magog, Cantons-de-l\'Est'; ?>">
+  <meta name="author" content="Elagage Urbain TR">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2E7D32">
+  <link rel="canonical" href="<?php echo (isset($base_path) ? $base_path : '') . $_SERVER['REQUEST_URI']; ?>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'Elagage Urbain TR'; ?>">
+  <meta property="og:description" content="<?php echo isset($page_description) ? $page_description : ''; ?>">
+  <meta property="og:image"
+    content="<?php echo isset($og_image) ? $og_image : (isset($base_path) ? $base_path : '') . 'images/logo2.png'; ?>">
+  <meta property="og:url" content="<?php echo (isset($base_path) ? $base_path : '') . $_SERVER['REQUEST_URI']; ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Elagage Urbain TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'Elagage Urbain TR'; ?>">
+  <meta name="twitter:description" content="<?php echo isset($page_description) ? $page_description : ''; ?>">
+  <meta name="twitter:image"
+    content="<?php echo isset($og_image) ? $og_image : (isset($base_path) ? $base_path : '') . 'images/logo2.png'; ?>">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -28,7 +51,7 @@
       "@context": "https://schema.org",
       "@type": "TreeService",
       "name": "Elagage Urbain TR",
-      "image": "", 
+      "image": "<?php echo isset($og_image) ? $og_image : (isset($base_path) ? $base_path : '') . 'images/logo2.png'; ?>",
       "telephone": "819-212-8222",
       "address": {
         "@type": "PostalAddress",
@@ -40,39 +63,20 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 45.4, 
-        "longitude": -71.9 
+        "latitude": 45.4,
+        "longitude": -71.9
       },
       "url": "https://elagageurbaintr.ca",
       "priceRange": "$$",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "08:00",
         "closes": "18:00"
       },
-      "areaServed": [
-        "Sherbrooke",
-        "Magog",
-        "Orford",
-        "North Hatley",
-        "Waterville",
-        "Cookshire-Eaton",
-        "East Angus",
-        "Brompton",
-        "Ayer's Cliff",
-        "Coaticook",
-        "Windsor",
-        "Austin"
-      ]
+      "areaServed": ["Sherbrooke","Magog","Orford","North Hatley","Waterville","Cookshire-Eaton","East Angus","Brompton","Ayer's Cliff","Coaticook","Windsor","Austin"]
     }
-    </script>
+  </script>
 </head>
 
 <body>
