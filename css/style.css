@@ -160,6 +160,7 @@ header {
     font-weight: 500;
     transition: var(--transition);
     padding: 0.75rem 1rem;
+    /* padding: 2rem 1.5rem; */
 }
 
 .nav-links a:hover {
@@ -511,7 +512,13 @@ header {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        padding: 0rem 0 1rem 0 !important;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links li {
+        /* border: 1px solid red; */
+        padding: 0.5rem 0;
     }
 
     .nav-links.active {
@@ -1522,8 +1529,8 @@ header {
     .why-features {
         grid-template-columns: 1fr;
     }
-} 
- 
+}
+
 /* Cabling Benefits Grid - Bénéfices du haubanage */
 .cabling-benefits-grid {
     display: grid;
@@ -1680,7 +1687,7 @@ header {
     margin: 0;
 }
 
-.inspection-section > p {
+.inspection-section>p {
     font-size: 1.05rem;
     color: #555;
     line-height: 1.8;
@@ -1728,24 +1735,24 @@ header {
     .cabling-benefits-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .warning-signs-container {
         grid-template-columns: 1fr;
     }
-    
+
     .inspection-section {
         padding: 2rem 1.5rem;
     }
-    
+
     .inspection-header {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .inspection-header h3 {
         font-size: 1.5rem;
     }
-    
+
     .inspection-features {
         grid-template-columns: 1fr;
     }
@@ -1878,7 +1885,7 @@ header {
     margin: 0;
 }
 
-.haubanage-inspection-section > p {
+.haubanage-inspection-section>p {
     font-size: 1.05rem;
     color: #555;
     line-height: 1.8;
@@ -1926,24 +1933,24 @@ header {
     .haubanage-benefits-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .haubanage-warning-signs {
         grid-template-columns: 1fr;
     }
-    
+
     .haubanage-inspection-section {
         padding: 2rem 1.5rem;
     }
-    
+
     .haubanage-inspection-header {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .haubanage-inspection-header h3 {
         font-size: 1.5rem;
     }
-    
+
     .haubanage-inspection-features {
         grid-template-columns: 1fr;
     }
