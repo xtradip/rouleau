@@ -14,7 +14,8 @@
   <meta name="author" content="Elagage Urbain TR">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#2E7D32">
-  <link rel="canonical" href="<?php echo (isset($base_path) ? $base_path : '') . $_SERVER['REQUEST_URI']; ?>">
+  <link rel="canonical"
+    href="<?php echo isset($canonical_url) ? $canonical_url : 'https://elagageurbaintr.ca' . $_SERVER['REQUEST_URI']; ?>">
 
   <!-- Open Graph -->
   <meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'Elagage Urbain TR'; ?>">
@@ -78,6 +79,15 @@
     }
   </script>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M6Q0W5D0YS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-M6Q0W5D0YS');
+</script>
 
 <body>
 

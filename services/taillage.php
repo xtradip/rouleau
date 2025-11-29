@@ -4,6 +4,7 @@ $page_title = "Taillage de Haies Sherbrooke | Elagage Urbain TR";
 $page_description = "Service de taillage de haies et d'arbustes à Sherbrooke. Haies de cèdres denses et soignées. Expertise professionnelle.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/taillage";
 
 include '../includes/header.php';
 ?>

@@ -4,6 +4,7 @@ $page_title = "Déboisement de Terrain Sherbrooke | Elagage Urbain TR";
 $page_description = "Service de déboisement de terrain à Sherbrooke et en Estrie. Préparation de terrain pour construction. Travail propre et efficace.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/deboisement";
 
 include '../includes/header.php';
 ?>

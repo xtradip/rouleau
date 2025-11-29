@@ -4,6 +4,7 @@ $page_title = "Plantation d'Arbres Sherbrooke | Elagage Urbain TR";
 $page_description = "Service de plantation d'arbres à Sherbrooke et en Estrie. Conseils d'experts pour le choix et l'entretien de vos arbres.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/plantation";
 
 include '../includes/header.php';
 ?>

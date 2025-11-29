@@ -4,6 +4,7 @@ $page_title = "Elagage Urbain TR - Abattage et Élagage d'Arbres à Sherbrooke";
 $page_description = "Expert en abattage, élagage, taillage et plantation d'arbres à Sherbrooke et en Estrie. Service professionnel et sécuritaire. Soumission gratuite au 819-212-8222.";
 $base_path = "";
 $css_path = "";
+$canonical_url = "https://elagageurbaintr.ca";
 
 include 'includes/header.php';
 ?>

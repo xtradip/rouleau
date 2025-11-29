@@ -4,6 +4,7 @@ $page_title = "Élagage d'Arbres Sherbrooke | Elagage Urbain TR";
 $page_description = "Service d'élagage d'arbres professionnel à Sherbrooke. Améliorez la santé et l'esthétique de vos arbres. Élagage de sécurité et d'entretien.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/elagage";
 
 include '../includes/header.php';
 ?>

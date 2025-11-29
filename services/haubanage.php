@@ -4,6 +4,7 @@ $page_title = "Haubanage d'Arbres Sherbrooke | Elagage Urbain TR";
 $page_description = "Service de haubanage d'arbres à Sherbrooke. Sécurisez vos arbres fragiles sans les couper. Expertise professionnelle.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/haubanage";
 
 include '../includes/header.php';
 ?>
