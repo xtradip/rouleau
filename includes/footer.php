@@ -2,7 +2,7 @@
     <div class="container">
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
             <div>
-                <img src="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo.png"
+                <img src="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo.webp"
                     alt="Elagage Urbain TR Logo" style="max-width: 150px; margin-bottom: 1rem;">
                 <h4>Élagage Urbain TR</h4>
                 <p>Services d'arboriculture professionnels.</p>

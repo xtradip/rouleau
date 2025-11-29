@@ -33,6 +33,12 @@
   <meta name="twitter:image"
     content="<?php echo isset($og_image) ? $og_image : (isset($base_path) ? $base_path : '') . 'images/logo2.png'; ?>">
 
+  <?php if (isset($hero_image)): ?>
+    <!-- Preload hero image for better LCP -->
+    <link rel="preload" as="image" href="<?php echo (isset($base_path) ? $base_path : '') . $hero_image; ?>"
+      fetchpriority="high">
+  <?php endif; ?>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -96,7 +102,7 @@
     <div class="container navbar">
       <a href="<?php echo isset($base_path) ? $base_path : ''; ?>" class="logo"
         style="display: flex; align-items: center; gap: 0.75rem;">
-        <img src="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo.png" alt="Élagage Urbain TR Logo"
+        <img src="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo.webp" alt="Élagage Urbain TR Logo"
           style="height: 50px; width: auto;">
         Élagage Urbain TR
       </a>

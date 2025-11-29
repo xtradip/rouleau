@@ -5,6 +5,7 @@ $page_description = "Service de haubanage d'arbres à Sherbrooke. Sécurisez vos
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/haubanage";
+$hero_image = "images/haubanage.jpeg";
 
 include '../includes/header.php';
 ?>

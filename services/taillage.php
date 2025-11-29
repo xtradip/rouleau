@@ -5,12 +5,13 @@ $page_description = "Service de taillage de haies et d'arbustes à Sherbrooke. H
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/taillage";
+$hero_image = "images/taillage.webp";
 
 include '../includes/header.php';
 ?>
 
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/taillage.png'); background-size: cover; background-position: center; color: white; text-align: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/taillage.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
         <h1>Taillage de Haies</h1>
         <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Des haies denses et droites pour votre

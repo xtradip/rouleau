@@ -5,12 +5,13 @@ $page_description = "Service d'élagage d'arbres professionnel à Sherbrooke. Am
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/elagage";
+$hero_image = "images/elagage.webp";
 
 include '../includes/header.php';
 ?>
 
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/elagage.png'); background-size: cover; background-position: center; color: white; text-align: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/elagage.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
         <h1>Élagage d'Arbres en Estrie</h1>
         <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Pour des arbres plus forts, plus beaux et

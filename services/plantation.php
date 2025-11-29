@@ -5,12 +5,13 @@ $page_description = "Service de plantation d'arbres à Sherbrooke et en Estrie. 
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/plantation";
+$hero_image = "images/plantation.webp";
 
 include '../includes/header.php';
 ?>
 
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/plantation.png'); background-size: cover; background-position: center; color: white; text-align: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/plantation.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
         <h1>Plantation d'Arbres</h1>
         <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Investissez dans l'avenir de votre terrain.

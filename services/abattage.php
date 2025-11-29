@@ -4,12 +4,14 @@ $page_title = "Abattage d'Arbres Sherbrooke | Elagage Urbain TR";
 $page_description = "Service d'abattage d'arbres sécuritaire et professionnel à Sherbrooke et en Estrie. Équipe expérimentée et assurée. Estimation gratuite.";
 $base_path = "../";
 $css_path = "../";
+$canonical_url = "https://elagageurbaintr.ca/services/abattage";
+$hero_image = "images/abattage2.webp";
 
 include '../includes/header.php';
 ?>
 
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/abattage2.jpeg'); background-size: cover; background-position: center; color: white; text-align: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
         <h1>Abattage d'Arbres à Sherbrooke</h1>
         <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Sécurité, Précision et Propreté garanties.
