@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Plantation d'Arbres Sherbrooke | Elagage Urbain TR";
-$page_description = "Service de plantation d'arbres à Sherbrooke et en Estrie. Conseils d'experts pour le choix et l'entretien de vos arbres.";
+$page_title = "Plantation d'Arbres à Sherbrooke, Magog, Orford | Arbres Adaptés au Climat de l'Estrie | Espèces Résistantes aux Hivers Rigoureux du Québec | Conseils d'Experts Près de Chez Vous | Consultation Gratuite 819-212-8222";
+$page_description = "Plantation d'arbres professionnelle à Sherbrooke et Estrie. Conseils d'experts près de chez vous pour arbres résistants au climat québécois. Espèces indigènes adaptées. Service complet. Consultation gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/plantation";
@@ -13,8 +13,9 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/plantation.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Plantation d'Arbres</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Investissez dans l'avenir de votre terrain.
+        <h1>Plantation d'Arbres Adaptés au Climat de l'Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Service de plantation près de chez vous |
+            Arbres résistants aux hivers rigoureux du Québec | Espèces indigènes de l'Estrie
         </p>
     </div>
 </section>

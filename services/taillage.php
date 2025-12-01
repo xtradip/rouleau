@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Taillage de Haies Sherbrooke | Elagage Urbain TR";
-$page_description = "Service de taillage de haies et d'arbustes à Sherbrooke. Haies de cèdres denses et soignées. Expertise professionnelle.";
+$page_title = "Taillage de Haies de Cèdres à Sherbrooke, Magog, Orford | Service Professionnel Près de Chez Vous | Haies Denses et Droites | Entretien Annuel en Estrie | Ramassage Complet Inclus | Soumission Gratuite 819-212-8222";
+$page_description = "Taillage de haies de cèdres professionnel à Sherbrooke et Estrie. Service près de chez vous pour haies denses, droites et en santé. Taille annuelle précise, ramassage complet. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/taillage";
@@ -13,9 +13,10 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/taillage.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Taillage de Haies</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Des haies denses et droites pour votre
-            intimité.</p>
+        <h1>Taillage de Haies de Cèdres à Sherbrooke et en Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Service de taillage professionnel près de
+            chez vous | Haies de cèdres denses et droites | Sherbrooke, Magog, Orford | Ramassage complet inclus |
+            Soumission gratuite</p>
     </div>
 </section>
 

@@ -487,10 +487,11 @@ header {
 }
 
 /* Mobile Nav */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     .container {
-        padding: 1rem 0.5rem;
+        padding: 1rem 0rem;
+        margin: 0 auto;
     }
 
     .hamburger {
@@ -799,7 +800,7 @@ header {
 }
 
 /* Mobile adjustments for elagage page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .benefits-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -1005,7 +1006,7 @@ header {
 }
 
 /* Mobile adjustments for taillage page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .importance-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -1254,7 +1255,7 @@ header {
 }
 
 /* Mobile adjustments for plantation page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .plantation-timeline {
         flex-direction: column;
         gap: 2rem;
@@ -1503,7 +1504,7 @@ header {
 }
 
 /* Mobile adjustments for deboisement page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .clearing-services-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -1731,7 +1732,7 @@ header {
 }
 
 /* Mobile adjustments for haubanage page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .cabling-benefits-grid {
         grid-template-columns: 1fr;
     }
@@ -1929,7 +1930,7 @@ header {
 }
 
 /* Mobile adjustments for haubanage page */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .haubanage-benefits-grid {
         grid-template-columns: 1fr;
     }

@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="<?php echo isset($css_path) ? $css_path : ''; ?>css/style.css">
 
   <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="<?php echo isset($base_path) ? $base_path : ''; ?>images/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32"
     href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16"
@@ -70,8 +71,8 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 45.4,
-        "longitude": -71.9
+        "latitude": 45.393956,
+        "longitude": -71.977192
       },
       "url": "https://elagageurbaintr.ca",
       "priceRange": "$$",

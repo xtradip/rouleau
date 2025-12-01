@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Élagage d'Arbres Sherbrooke | Elagage Urbain TR";
-$page_description = "Service d'élagage d'arbres professionnel à Sherbrooke. Améliorez la santé et l'esthétique de vos arbres. Élagage de sécurité et d'entretien.";
+$page_title = "Élagage et Émondage d'Arbres à Sherbrooke, Magog, Orford | Arboriculteur Certifié Près de Chez Vous | Élagage de Sécurité, Prévention Verglas | Service Professionnel en Estrie | Soumission Gratuite 819-212-8222";
+$page_description = "Élagage et émondage professionnel à Sherbrooke et Estrie. Arboriculteur certifié près de chez vous. Élagage de sécurité, prévention verglas, entretien d'arbres. Intervention rapide. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/elagage";
@@ -13,9 +13,9 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/elagage.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Élagage d'Arbres en Estrie</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Pour des arbres plus forts, plus beaux et
-            plus sûrs.</p>
+        <h1>Élagage et Émondage d'Arbres par Arboriculteur Certifié</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Service d'élagage professionnel près de chez
+            vous </p>
     </div>
 </section>
 

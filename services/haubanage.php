@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Haubanage d'Arbres Sherbrooke | Elagage Urbain TR";
-$page_description = "Service de haubanage d'arbres à Sherbrooke. Sécurisez vos arbres fragiles sans les couper. Expertise professionnelle.";
+$page_title = "Haubanage et Consolidation d'Arbres à Sherbrooke, Magog, Orford | Sauvez vos Arbres Matures Près de Chez Vous | Câblage Professionnel | Prévention Rupture de Branches en Estrie | Inspection Gratuite 819-212-8222";
+$page_description = "Haubanage professionnel d'arbres à Sherbrooke et Estrie. Service près de chez vous pour sauver vos arbres matures fragiles. Consolidation et câblage, prévention rupture de branches. Inspection gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/haubanage";
@@ -11,11 +11,11 @@ include '../includes/header.php';
 ?>
 
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/haubanage.jpeg'); background-size: cover; background-position: center; color: white; text-align: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/haubanage.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Haubanage d'Arbres</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Sauvez vos arbres préférés au lieu de les
-            couper.</p>
+        <h1>Haubanage d'Arbres - Sauvez vos Arbres Matures Précieux</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Service de consolidation et câblage près de
+            chez vous | Alternative à l'abattage pour arbres fragiles | Prévention rupture de branches</p>
     </div>
 </section>
 

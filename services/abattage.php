@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Abattage d'Arbres Sherbrooke | Elagage Urbain TR";
-$page_description = "Service d'abattage d'arbres sécuritaire et professionnel à Sherbrooke et en Estrie. Équipe expérimentée et assurée. Estimation gratuite.";
+$page_title = "Abattage d'Arbres à Sherbrooke, Magog, Orford | Service Professionnel Près de Chez Vous en Estrie | Arbre Dangereux, Malade ou Mal Situé | Soumission Gratuite 819-212-8222 | Intervention Rapide 24/7";
+$page_description = "Abattage d'arbres professionnel à Sherbrooke et Estrie. Service près de chez vous pour arbres dangereux, malades ou mal situés. Équipe certifiée, intervention rapide, nettoyage complet. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/abattage";
@@ -13,8 +13,9 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Abattage d'Arbres à Sherbrooke</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Sécurité, Précision et Propreté garanties.
+        <h1>Abattage d'Arbres Professionnel à Sherbrooke et en Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Service d'abattage d'arbres près de chez vous
+            | Arbres dangereux, malades ou mal situés
         </p>
     </div>
 </section>

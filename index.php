@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Elagage Urbain TR - Abattage et Élagage d'Arbres à Sherbrooke";
-$page_description = "Expert en abattage, élagage, taillage et plantation d'arbres à Sherbrooke et en Estrie. Service professionnel et sécuritaire. Soumission gratuite au 819-212-8222.";
+$page_title = "Élagage Urbain TR - Abattage, Élagage, Taillage de Haies de Cèdres à Sherbrooke, Magog, Orford | Arboriculteur Professionnel Près de Chez Vous en Estrie | Plantation, Déboisement, Haubanage | Soumission Gratuite 819-212-8222";
+$page_description = "Services d'arboriculture professionnels près de chez vous à Sherbrooke et Estrie. Abattage d'arbres, élagage, émondage, taillage de haies de cèdres, plantation, déboisement, haubanage. Arboriculteur professionnel. . Soumission gratuite 819-212-8222.";
 $base_path = "";
 $css_path = "";
 $canonical_url = "https://elagageurbaintr.ca";
@@ -14,11 +14,10 @@ include 'includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Services d'Arboriculture Professionnels à Sherbrooke</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Abattage, Élagage, Taillage de Haies de
-            Cèdres,
-            Plantation et Soins
-            aux Arbres en Estrie.</p>
+        <h1>Services d'Arboriculture Professionnels Près de Chez Vous à Sherbrooke et en Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Abattage d'arbres, Élagage et Émondage,
+            Taillage de Haies de Cèdres, Plantation, Déboisement, Haubanage | Service d'arboriculture professionnel à
+            Sherbrooke et en Estrie.</p>
         <a href="tel:8192128222" class="btn btn-accent" style="display: inline-flex; align-items: center; gap: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
