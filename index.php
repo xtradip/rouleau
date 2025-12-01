@@ -47,9 +47,14 @@ include 'includes/header.php';
                         arbre soit dangereux, malade ou simplement mal situé, notre équipe certifiée procède à un
                         abattage sécuritaire et contrôlé. Nous utilisons des techniques de démontage par section pour
                         les espaces restreints et garantissons un nettoyage complet de votre terrain.</p>
-                    <a href="services/abattage.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/abattage.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Service 2 -->
@@ -61,9 +66,14 @@ include 'includes/header.php';
                         vos arbres. Nos arboriculteurs certifiés pratiquent l'élagage de sécurité, d'assainissement et
                         d'éclaircissage selon les normes de l'industrie. Idéal pour prévenir les chutes de branches lors
                         de tempêtes de verglas fréquentes dans la région de Sherbrooke.</p>
-                    <a href="services/elagage.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/elagage.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Service 3 -->
@@ -75,9 +85,14 @@ include 'includes/header.php';
                         maintenons vos haies denses, droites et en santé grâce à une taille annuelle précise. Service
                         rapide avec ramassage complet des retailles. Parfait pour préserver votre intimité et
                         l'apparence soignée de votre propriété en Estrie.</p>
-                    <a href="services/taillage.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/taillage.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Service 4 -->
@@ -90,9 +105,14 @@ include 'includes/header.php';
                         conditions locales. Service complet incluant la préparation du sol, la plantation
                         professionnelle et les conseils d'entretien pour assurer la croissance optimale de vos arbres.
                     </p>
-                    <a href="services/plantation.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/plantation.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Service 5 -->
@@ -104,9 +124,14 @@ include 'includes/header.php';
                         construction à Sherbrooke et en Estrie. Déboisement sélectif ou complet, débroussaillage et
                         essouchement. Équipement professionnel pour terrains résidentiels et commerciaux. Travail
                         rapide, propre et conforme aux réglementations municipales de la région.</p>
-                    <a href="services/deboisement.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/deboisement.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Service 6 -->
@@ -118,9 +143,14 @@ include 'includes/header.php';
                         technique de consolidation prévient la rupture de branches et prolonge la vie de vos arbres
                         précieux. Particulièrement recommandé pour les arbres exposés aux vents violents et aux
                         accumulations de neige typiques de l'Estrie.</p>
-                    <a href="services/haubanage.php"
-                        style="color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: inline-block;">En
-                        savoir plus &rarr;</a>
+                    <a href="services/haubanage.php" class="service-link">
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -213,8 +243,8 @@ include 'includes/header.php';
                         <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
                     </div>
                 </div>
-                <p style="color: #555; font-style: italic; line-height: 1.6;">"Ma haie n’a jamais été aussi bien taillée
-                    avant l’hiver, un grand merci !!"
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Ma haie n'a jamais été aussi bien taillée
+                    avant l'hiver, un grand merci !!"
                 </p>
                 <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">11-19-2025</p>
             </div>
@@ -230,7 +260,7 @@ include 'includes/header.php';
                         <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
                     </div>
                 </div>
-                <p style="color: #555; font-style: italic; line-height: 1.6;">"Service impeccable ! L’équipe d’Élagage
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Service impeccable ! L'équipe d'Élagage
                     Urbain TR a abattu un arbre dangereux derrière ma maison à Sherbrooke. Travail rapide, sécuritaire
                     et super propre. Je recommande fortement !"</p>
                 <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">11-13-2025</p>

@@ -150,6 +150,27 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.service-link {
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-link:hover {
+    background-color: #1e5a21;
+    transform: translateY(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
