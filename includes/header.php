@@ -128,6 +128,7 @@
             <a href="<?php echo isset($base_path) ? $base_path : ''; ?>services/haubanage.php">Haubanage</a>
           </div>
         </li>
+        <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/">Zone Intervention</a></li>
         <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>index.php#about">À Propos</a></li>
         <li><a href="tel:8192128222" class="btn btn-accent" style="display: flex; align-items: center; gap: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"

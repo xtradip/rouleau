@@ -28,8 +28,8 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 500px; display: flex; align-items: center;">
     <div class="container">
-        <h1>Abattage d'arbres et taillage de haies à
-            <?php echo $city['name']; ?> — Services d'Arboriculture en Estrie
+        <h1>Abattage d'Arbres et Taillage de Haies à
+            <?php echo $city['name']; ?> - Services d'Arboriculture en Estrie
         </h1>
         <p style="font-size: 1.15rem; margin: 1rem 0 2rem; color: #f0f0f0;">
             Abattage d'arbres, élagage, taillage de haies de cèdres, plantation, déboisement et haubanage<br>
@@ -65,7 +65,7 @@ include '../includes/header.php';
 <section class="section-padding">
     <div class="container">
         <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Abattage d'arbres et taillage de haies à
+            <h2>Abattage d'Arbres et Taillage de Haies à
                 <?php echo $city['name']; ?>
             </h2>
             <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
@@ -124,7 +124,7 @@ include '../includes/header.php';
                         <div
                             style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.07); transition: transform 0.3s ease, box-shadow 0.3s ease; border-left: 4px solid var(--accent);">
                             <h3 style="margin: 0 0 0.5rem 0; color: var(--primary-dark); font-size: 1.05rem;">
-                                📍
+                                📍 Abattage d'Arbres et Taillage de Haies à
                                 <?php echo $district['name']; ?>
                             </h3>
                             <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0; line-height: 1.6;">

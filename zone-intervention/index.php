@@ -13,7 +13,7 @@ include '../includes/header.php';
 
 <!-- Hero Section -->
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 350px; display: flex; align-items: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 500px; display: flex; align-items: center;">
     <div class="container">
         <h1>Nos Zones d'Intervention en Estrie</h1>
         <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">
@@ -36,7 +36,7 @@ include '../includes/header.php';
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
         <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h2>Abattage d'arbres et taillage de haies en Estrie</h2>
+            <h2>Abattage d'Arbres et Taillage de Haies en Estrie</h2>
             <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8;">
                 Élagage Urbain TR dessert <strong>plus de 12 villes et municipalités</strong> en Estrie pour tous vos
                 besoins
@@ -60,15 +60,10 @@ include '../includes/header.php';
                     <div
                         style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border-left: 4px solid var(--primary);">
                         <div
-                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                            <h3 style="margin: 0; color: var(--primary-dark);">📍
+                            style="display: flex; justify-content: space-between; margin-bottom: 0.75rem; flex-direction: column;">
+                            <h3 style="margin: 0; color: var(--primary-dark);">📍 Abattage d'Arbres et Taillage de Haies à
                                 <?php echo $city['name']; ?>
                             </h3>
-                            <span
-                                style="font-size: 0.85rem; color: var(--text-secondary); background: var(--bg-light); padding: 0.25rem 0.75rem; border-radius: 20px;">
-                                Pop.
-                                <?php echo $city['population']; ?>
-                            </span>
                         </div>
                         <p
                             style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
@@ -91,7 +86,7 @@ include '../includes/header.php';
 <!-- Services offerts -->
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Nos Services d'Arboriculture</h2>
+        <h2 style="text-align: center; margin-bottom: 2rem;">Nos Services d'Arboriculture En Estrie</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem;">
             <?php foreach ($services_list as $service): ?>
                 <a href="<?php echo $base_path; ?>services/<?php echo $service['slug']; ?>"
@@ -157,12 +152,5 @@ include '../includes/header.php';
   "description": "Services d'arboriculture professionnels en Estrie. Abattage d'arbres, élagage, taillage de haies de cèdres, plantation, déboisement et haubanage."
 }
 </script>
-
-<style>
-    .zone-city-card div:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
-    }
-</style>
 
 <?php include '../includes/footer.php'; ?>

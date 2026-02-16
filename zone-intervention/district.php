@@ -75,7 +75,7 @@ include '../includes/header.php';
     <div class="container">
         <div style="max-width: 800px; margin: 0 auto;">
             <h2>Arboriculteur à
-                <?php echo $city['name']; ?> dans le secteur de
+                <?php echo $city['name']; ?> dans le secteur
                 <?php echo $district['name']; ?>
             </h2>
             <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
@@ -102,7 +102,7 @@ include '../includes/header.php';
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
         <h2 style="text-align: center; margin-bottom: 2rem;">Services d'Arboriculture à
-            <?php echo $city['name']; ?> dans le secteur de
+            <?php echo $city['name']; ?> dans le secteur
             <?php echo $district['name']; ?>
         </h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem;">
@@ -114,7 +114,7 @@ include '../includes/header.php';
                         <h3 style="margin: 0 0 0.75rem 0; font-size: 1.1rem; color: var(--primary-dark);">
                             <?php echo $service['icon']; ?>
                             <?php echo $service['name']; ?> à
-                            <?php echo $city['name']; ?> dans le secteur de
+                            <?php echo $city['name']; ?> dans le secteur
                             <?php echo $district['name']; ?>
                         </h3>
                         <p style="color: var(--text-secondary); font-size: 0.95rem; margin: 0; line-height: 1.6;">
