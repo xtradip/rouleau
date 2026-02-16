@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Taillage de Haies de Cèdres à Sherbrooke, Magog, Orford | Service Professionnel Près de Chez Vous | Haies Denses et Droites | Entretien Annuel en Estrie | Ramassage Complet Inclus | Soumission Gratuite 819-212-8222";
-$page_description = "Taillage de haies de cèdres professionnel à Sherbrooke et Estrie. Service près de chez vous pour haies denses, droites et en santé. Taille annuelle précise, ramassage complet. Soumission gratuite 819-212-8222.";
+$page_title = "Taillage de Haies de Cèdres à Sherbrooke | Estrie";
+$page_description = "Taillage de haies de cèdres professionnel à Sherbrooke et Estrie. Haies denses et droites, taille annuelle, ramassage complet. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/taillage";
@@ -206,5 +206,55 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quand tailler ma haie de cèdres à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le meilleur moment pour tailler les cèdres est de la fin juin à septembre. Évitez de tailler au printemps (période de croissance active) et à l'automne tardif (risque de gel sur les nouvelles pousses). Une taille annuelle en juillet-août est idéale pour la plupart des haies de cèdres en Estrie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ma haie de cèdres a des parties brunes, que faire ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les parties brunes peuvent être causées par le sel de déglaçage, le manque d'eau, ou des maladies. Malheureusement, les cèdres ne repoussent pas sur le bois brun. Nous pouvons tailler pour uniformiser l'apparence et vous conseiller sur les soins pour prévenir d'autres dommages. Dans certains cas, un remplacement partiel peut être nécessaire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je tailler ma haie moi-même ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, pour une petite haie basse. Cependant, pour les haies hautes ou longues, l'équipement professionnel (taille-haies à perche, échafaudages) et l'expérience font une grande différence dans le résultat final. De plus, travailler en hauteur comporte des risques. Nos équipes sont formées et assurées pour ce type de travail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que faites-vous avec les retailles ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous ramassons les retailles et les évacuons. Les branches de cèdres peuvent être compostées ou utilisées comme paillis aromatique dans certains aménagements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Taillez-vous d'autres types de haies que les cèdres ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolument ! Nous taillons tous types de haies : troènes, charmilles, if, épinettes, thuyas, ainsi que les arbustes ornementaux comme les spirées, les lilas et les forsythias. Chaque espèce a ses particularités et nous adaptons notre technique en conséquence."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

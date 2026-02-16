@@ -2,50 +2,207 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://elagageurbaintr.ca/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/index.php</loc>
-    <lastmod>2026-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://elagageurbaintr.ca/services/abattage.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/abattage</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/services/elagage.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/elagage</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/services/taillage.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/taillage</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/services/plantation.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/plantation</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/services/deboisement.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/deboisement</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://elagageurbaintr.ca/services/haubanage.php</loc>
-    <lastmod>2025-11-29</lastmod>
+    <loc>https://elagageurbaintr.ca/services/haubanage</loc>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <!-- Zone d'intervention -->
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/rock-forest-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/lennoxville-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/fleurimont-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/jacques-cartier-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/brompton-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/mont-bellevue-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/saint-elie-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/sherbrooke/deauville-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/magog</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/magog/centre-ville-magog-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/magog/secteur-ouest-magog-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/magog/lac-memphremagog-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/orford</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/orford/cherry-river-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/orford/canton-orford-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/north-hatley</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/waterville</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/coaticook</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/coaticook/centre-ville-coaticook-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/coaticook/quartier-des-erables-elagage-abattage-arbres-et-taillage-de-haies</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/windsor</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/cookshire-eaton</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/east-angus</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/ayers-cliff</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elagageurbaintr.ca/zone-intervention/austin</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

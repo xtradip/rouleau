@@ -74,16 +74,31 @@
             <div>
                 <h4>Zones Desservies</h4>
                 <ul style="line-height: 2;">
-                    <li>Sherbrooke</li>
-                    <li>Magog</li>
-                    <li>Orford</li>
-                    <li>North Hatley</li>
-                    <li>Waterville</li>
-                    <li>Coaticook</li>
-                    <li>Windsor</li>
-                    <li>Cookshire-Eaton</li>
-                    <li>East Angus</li>
-                    <li>Brompton</li>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/sherbrooke">Sherbrooke</a>
+                    </li>
+                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/magog">Magog</a>
+                    </li>
+                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/orford">Orford</a>
+                    </li>
+                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/north-hatley">North
+                            Hatley</a></li>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/waterville">Waterville</a>
+                    </li>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/coaticook">Coaticook</a>
+                    </li>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/windsor">Windsor</a>
+                    </li>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/cookshire-eaton">Cookshire-Eaton</a>
+                    </li>
+                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/east-angus">East
+                            Angus</a></li>
+                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention">Voir toutes les
+                            zones →</a></li>
                 </ul>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Abattage d'Arbres à Sherbrooke, Magog, Orford | Service Professionnel Près de Chez Vous en Estrie | Arbre Dangereux, Malade ou Mal Situé | Soumission Gratuite 819-212-8222 | Intervention Rapide 24/7";
-$page_description = "Abattage d'arbres professionnel à Sherbrooke et Estrie. Service près de chez vous pour arbres dangereux, malades ou mal situés. Équipe certifiée, intervention rapide, nettoyage complet. Soumission gratuite 819-212-8222.";
+$page_title = "Abattage d'Arbres à Sherbrooke | Élagage Urbain TR";
+$page_description = "Abattage d'arbres professionnel à Sherbrooke et Estrie. Arbres dangereux, malades ou mal situés. Équipe certifiée, intervention rapide. Soumission gratuite.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/abattage";
@@ -229,5 +229,63 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Combien coûte l'abattage d'un arbre à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le coût varie selon la taille de l'arbre, son emplacement et la complexité du travail. Un petit arbre peut coûter entre 300$ et 800$, tandis qu'un grand arbre près d'une maison peut atteindre 2000$ à 5000$. Nous offrons des soumissions gratuites et détaillées pour chaque projet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ai-je besoin d'un permis pour abattre un arbre à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, la Ville de Sherbrooke exige un permis d'abattage pour les arbres de plus de 15 cm de diamètre. Nous pouvons vous conseiller sur les démarches à suivre et vous aider à respecter la réglementation municipale en vigueur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps prend l'abattage d'un arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un petit arbre peut être abattu en 2-4 heures, incluant le nettoyage. Un grand arbre complexe nécessitant un démontage par sections peut prendre une journée complète. Nous vous donnons toujours une estimation précise lors de la soumission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que faites-vous avec le bois après l'abattage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous offrons plusieurs options : nous pouvons débiter le tronc en bûches pour votre foyer, broyer les branches en copeaux pour paillis, ou évacuer complètement tous les résidus. Le choix vous appartient et est discuté lors de la soumission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Enlevez-vous aussi la souche ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, nous offrons un service d'essouchement avec notre équipement spécialisé. La souche peut être rognée sous le niveau du sol, permettant de planter du gazon ou un nouvel arbre. Ce service est optionnel et peut être ajouté à votre soumission d'abattage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Intervenez-vous en urgence pour un arbre dangereux ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolument. Nous comprenons qu'un arbre menaçant de tomber sur une maison ou bloquant une entrée est une urgence. Nous priorisons ces situations et pouvons souvent intervenir dans les 24 à 48 heures à Sherbrooke et en Estrie."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

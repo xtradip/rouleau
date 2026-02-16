@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Déboisement et Essouchement de Terrain à Sherbrooke, Magog, Coaticook | Préparation de Terrain pour Construction | Service Résidentiel et Commercial Près de Chez Vous en Estrie | Soumission Gratuite 819-212-8222";
-$page_description = "Déboisement de terrain professionnel à Sherbrooke et Estrie. Service près de chez vous pour préparation terrain construction, essouchement, débroussaillage. Résidentiel et commercial. Soumission gratuite 819-212-8222.";
+$page_title = "Déboisement de Terrain à Sherbrooke | Estrie";
+$page_description = "Déboisement de terrain professionnel à Sherbrooke et Estrie. Préparation terrain construction, essouchement, débroussaillage. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/deboisement";
@@ -207,5 +207,63 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ai-je besoin d'un permis pour déboiser mon terrain à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, dans la plupart des cas. La Ville de Sherbrooke et les municipalités de l'Estrie ont des règlements sur l'abattage d'arbres et le déboisement. Vous devez généralement obtenir un permis, surtout si vous coupez plusieurs arbres ou déboisez une grande superficie. Nous pouvons vous conseiller sur les démarches à suivre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte le déboisement d'un terrain ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le coût varie énormément selon la superficie, la densité des arbres, l'accessibilité et si vous voulez l'essouchement. En général, comptez entre 2000$ et 5000$ par acre pour un déboisement complet avec essouchement. Un petit terrain résidentiel peut coûter 1500$ à 3000$."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps prend le déboisement d'un terrain ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela dépend de la taille et de la densité. Un petit terrain résidentiel (5000-10000 pi²) peut être déboisé en 1-2 jours. Un terrain d'un acre densément boisé peut prendre 3-5 jours. L'essouchement ajoute du temps supplémentaire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que faites-vous avec le bois coupé ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous offrons plusieurs options : nous pouvons laisser le bois de chauffage coupé et cordé sur place pour votre usage, l'évacuer complètement, ou le broyer en copeaux. Si le bois a une valeur commerciale, nous pouvons discuter d'arrangements qui pourraient réduire vos coûts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'essouchement est-il nécessaire ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela dépend de votre projet. Si vous construisez une maison ou aménagez une pelouse, oui, l'essouchement est fortement recommandé. Les souches peuvent pourrir et créer des affaissements. Si vous plantez simplement des arbres ou créez un jardin naturel, vous pouvez laisser certaines souches qui se décomposeront naturellement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Travaillez-vous en hiver pour le déboisement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui ! L'hiver est même une excellente période pour le déboisement. Le sol gelé supporte mieux la machinerie lourde, causant moins de dommages au terrain. De plus, l'absence de feuillage facilite le travail. Nous opérons toute l'année à Sherbrooke et en Estrie."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

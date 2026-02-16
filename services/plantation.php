@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Plantation d'Arbres à Sherbrooke, Magog, Orford | Arbres Adaptés au Climat de l'Estrie | Espèces Résistantes aux Hivers Rigoureux du Québec | Conseils d'Experts Près de Chez Vous | Consultation Gratuite 819-212-8222";
-$page_description = "Plantation d'arbres professionnelle à Sherbrooke et Estrie. Conseils d'experts près de chez vous pour arbres résistants au climat québécois. Espèces indigènes adaptées. Service complet. Consultation gratuite 819-212-8222.";
+$page_title = "Plantation d'Arbres à Sherbrooke & Estrie | Pro";
+$page_description = "Plantation d'arbres professionnelle à Sherbrooke et Estrie. Arbres résistants au climat québécois, espèces indigènes. Service complet. Consultation gratuite.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/plantation";
@@ -228,5 +228,63 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels arbres sont les mieux adaptés au climat de Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour l'Estrie, nous recommandons des espèces rustiques comme l'érable à sucre, le chêne rouge, le bouleau blanc, le frêne (variétés résistantes à l'agrile), le tilleul et les conifères comme l'épinette et le pin blanc. Ces arbres supportent bien nos hivers rigoureux et nos étés chauds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la meilleure période pour planter un arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Au Québec, les meilleures périodes sont le printemps (avril-mai) après le dégel et l'automne (septembre-octobre) avant les gels. Le printemps permet à l'arbre de s'établir avant l'été, tandis que l'automne favorise le développement racinaire avant l'hiver."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "À quelle distance de ma maison dois-je planter un arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela dépend de la taille adulte de l'arbre. En règle générale : petits arbres (moins de 8m) à 3-4m de la maison, arbres moyens (8-15m) à 5-7m, et grands arbres (plus de 15m) à minimum 8-10m. Il faut aussi considérer les fils électriques, les fondations et les systèmes septiques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte la plantation d'un arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le coût varie selon la taille de l'arbre et le travail requis. Un petit arbre (2-3m) peut coûter 150$ à 300$ en main-d'œuvre. Un arbre de calibre moyen (4-6m) peut atteindre 400$ à 800$. Ces prix n'incluent pas l'arbre lui-même."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment dois-je entretenir mon nouvel arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les deux premières années sont cruciales. Arrosez abondamment une fois par semaine (15-20L) en l'absence de pluie. Maintenez le paillis autour du tronc (sans toucher l'écorce). Évitez la fertilisation la première année. Nous vous fournissons un guide d'entretien détaillé adapté à votre espèce d'arbre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Offrez-vous une garantie sur les arbres plantés ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous garantissons la qualité de notre travail de plantation. Cependant, la survie de l'arbre dépend largement des soins post-plantation (arrosage, protection). Si vous suivez nos recommandations d'entretien et que l'arbre ne survit pas, contactez-nous pour discuter de la situation."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

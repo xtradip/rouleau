@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Élagage et Émondage d'Arbres à Sherbrooke, Magog, Orford | Arboriculteur Certifié Près de Chez Vous | Élagage de Sécurité, Prévention Verglas | Service Professionnel en Estrie | Soumission Gratuite 819-212-8222";
-$page_description = "Élagage et émondage professionnel à Sherbrooke et Estrie. Arboriculteur certifié près de chez vous. Élagage de sécurité, prévention verglas, entretien d'arbres. Intervention rapide. Soumission gratuite 819-212-8222.";
+$page_title = "Élagage et Émondage d'Arbres à Sherbrooke | Estrie";
+$page_description = "Élagage et émondage professionnel à Sherbrooke et Estrie. Arboriculteur certifié, élagage de sécurité, prévention verglas. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/elagage";
@@ -209,5 +209,63 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle est la différence entre élagage et émondage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'élagage est une coupe sélective et raisonnée qui respecte la structure naturelle de l'arbre. L'émondage (ou étêtage) consiste à couper drastiquement le sommet de l'arbre, une pratique déconseillée car elle affaiblit l'arbre et favorise les maladies. Nous pratiquons uniquement l'élagage professionnel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "À quelle fréquence dois-je faire élaguer mes arbres à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela dépend de l'espèce et de l'âge de l'arbre. En général, un élagage d'entretien tous les 3 à 5 ans est recommandé pour les arbres matures. Les jeunes arbres peuvent nécessiter une taille de formation plus fréquente. Un élagage de sécurité doit être fait dès qu'une branche dangereuse est identifiée."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte l'élagage d'un arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix varie selon la hauteur de l'arbre, le nombre de branches à couper et l'accessibilité. Un petit arbre peut coûter entre 200$ et 500$, tandis qu'un grand arbre mature peut atteindre 1000$ à 2500$. Nous offrons des soumissions gratuites et détaillées."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je élaguer mes arbres moi-même ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour les petites branches accessibles du sol, oui. Cependant, pour les branches en hauteur ou de gros diamètre, nous recommandons fortement de faire appel à des professionnels. L'élagage en hauteur comporte des risques importants et nécessite un équipement spécialisé et une formation adéquate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'élagage peut-il tuer mon arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un élagage excessif ou mal exécuté peut effectivement affaiblir ou tuer un arbre. C'est pourquoi il est crucial de faire appel à des arboriculteurs certifiés qui connaissent les bonnes pratiques. Nous ne retirons jamais plus de 25% du feuillage en une seule intervention pour préserver la santé de l'arbre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ramassez-vous les branches après l'élagage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolument ! Notre service inclut toujours le ramassage complet des branches et le nettoyage du site. Nous pouvons également broyer les branches en copeaux si vous souhaitez les utiliser comme paillis dans vos plates-bandes."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

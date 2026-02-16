@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Haubanage et Consolidation d'Arbres à Sherbrooke, Magog, Orford | Sauvez vos Arbres Matures Près de Chez Vous | Câblage Professionnel | Prévention Rupture de Branches en Estrie | Inspection Gratuite 819-212-8222";
-$page_description = "Haubanage professionnel d'arbres à Sherbrooke et Estrie. Service près de chez vous pour sauver vos arbres matures fragiles. Consolidation et câblage, prévention rupture de branches. Inspection gratuite 819-212-8222.";
+$page_title = "Haubanage d'Arbres à Sherbrooke | Consolidation";
+$page_description = "Haubanage professionnel d'arbres à Sherbrooke et Estrie. Sauvez vos arbres matures avec consolidation et câblage. Prévention rupture. Inspection gratuite.";
 $base_path = "../";
 $css_path = "../";
 $canonical_url = "https://elagageurbaintr.ca/services/haubanage";
@@ -201,5 +201,63 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- FAQ Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que le haubanage d'arbre exactement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le haubanage consiste à installer des câbles flexibles en acier entre les branches ou troncs d'un arbre pour limiter leur mouvement et prévenir les ruptures. C'est une technique d'arboriculture reconnue qui permet de sauver des arbres qui présenteraient autrement un danger et devraient être abattus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mon arbre a-t-il besoin d'un haubanage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si votre arbre présente des fourches en V serré, des fissures dans l'écorce, des branches très longues et horizontales, ou plusieurs troncs partant du même point, il pourrait bénéficier d'un haubanage. Une inspection par un arboriculteur certifié est la meilleure façon de déterminer si cette technique est appropriée."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte le haubanage d'un arbre à Sherbrooke ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le coût varie selon la hauteur de l'arbre, le nombre de points d'ancrage nécessaires et la complexité de l'installation. En général, comptez entre 300$ et 800$ pour un haubanage simple, et jusqu'à 1500$ pour des cas plus complexes nécessitant plusieurs câbles. Nous offrons des inspections et soumissions gratuites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le haubanage endommage-t-il l'arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, lorsqu'il est correctement installé par des professionnels. Nous utilisons des techniques modernes qui minimisent les dommages à l'arbre. Les câbles sont installés dans les deux tiers supérieurs de l'arbre et les points d'ancrage sont choisis pour ne pas nuire à la santé de l'arbre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure un système de haubanage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un système de haubanage bien installé peut durer 10 à 20 ans ou plus. Cependant, nous recommandons une inspection annuelle pour vérifier l'état des câbles et des points d'ancrage. L'arbre continue de croître, et des ajustements peuvent être nécessaires au fil du temps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le haubanage est-il visible ? Affecte-t-il l'esthétique de mon arbre ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les câbles sont généralement installés assez haut dans l'arbre et deviennent rapidement discrets, surtout une fois que le feuillage apparaît. Nous utilisons des câbles de couleur neutre qui se fondent dans l'écorce. La plupart des gens ne remarquent même pas leur présence."
+      }
+    }
+  ]
+}
+</script>
 
 <?php include '../includes/footer.php'; ?>

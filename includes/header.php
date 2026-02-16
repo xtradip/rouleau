@@ -9,8 +9,7 @@
   </title>
   <meta name="description"
     content="<?php echo isset($page_description) ? $page_description : 'Expert en abattage, élagage, taillage et plantation d\'arbres à Sherbrooke et en Estrie. Service professionnel et sécuritaire. Soumission gratuite au 819-212-8222.'; ?>">
-  <meta name="keywords"
-    content="<?php echo isset($page_keywords) ? $page_keywords : 'élagage Sherbrooke, abattage arbres Estrie, arboriculteur Sherbrooke, taillage haies, plantation arbres, déboisement, haubanage, service arboriculture Magog, Cantons-de-l\'Est'; ?>">
+
   <meta name="author" content="Elagage Urbain TR">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#2E7D32">
@@ -76,12 +75,20 @@
       },
       "url": "https://elagageurbaintr.ca",
       "priceRange": "$$",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
-      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "12:00"
+        }
+      ],
       "areaServed": ["Sherbrooke","Magog","Orford","North Hatley","Waterville","Cookshire-Eaton","East Angus","Brompton","Ayer's Cliff","Coaticook","Windsor","Austin"]
     }
   </script>

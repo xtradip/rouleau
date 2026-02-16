@@ -1,7 +1,7 @@
 <?php
 // Page configuration
-$page_title = "Élagage Urbain TR - Abattage, Élagage, Taillage de Haies de Cèdres à Sherbrooke, Magog, Orford | Arboriculteur Professionnel Près de Chez Vous en Estrie | Plantation, Déboisement, Haubanage | Soumission Gratuite 819-212-8222";
-$page_description = "Services d'arboriculture professionnels près de chez vous à Sherbrooke et Estrie. Abattage d'arbres, élagage, émondage, taillage de haies de cèdres, plantation, déboisement, haubanage. Arboriculteur professionnel. . Soumission gratuite 819-212-8222.";
+$page_title = "Élagage Urbain TR | Arboriculteur à Sherbrooke & Estrie";
+$page_description = "Arboriculteur professionnel à Sherbrooke et Estrie. Abattage, élagage, taillage de haies de cèdres, plantation, déboisement, haubanage. Soumission gratuite 819-212-8222.";
 $base_path = "";
 $css_path = "";
 $canonical_url = "https://elagageurbaintr.ca";
