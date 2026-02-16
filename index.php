@@ -14,10 +14,11 @@ include 'includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center;">
     <div class="container">
-        <h1>Services d'Arboriculture Professionnels Près de Chez Vous à Sherbrooke et en Estrie</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">Abattage d'arbres, Élagage et Émondage,
-            Taillage de Haies de Cèdres, Plantation, Déboisement, Haubanage | Service d'arboriculture professionnel à
-            Sherbrooke et en Estrie.</p>
+        <h1>Abattage d'Arbres, Élagage et Taillage de Haies de Cèdres à Sherbrooke | Arboriculteur en Estrie</h1>
+        <p style="font-size: 1.2rem; margin: 1rem 0 2rem; color: #f0f0f0;">
+            Arboriculteur certifié près de chez vous | Plantation, Déboisement, Haubanage et plus |
+            Service rapide et soumission gratuite à Sherbrooke, Magog, Orford et environs
+        </p>
         <a href="tel:8192128222" class="btn btn-accent" style="display: inline-flex; align-items: center; gap: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -164,7 +165,7 @@ include 'includes/header.php';
         <div style="max-width: 900px; margin: 0 auto;">
             <h2 style="text-align: center; margin-bottom: 2rem; color: white;">Votre Expert Arboricole en Estrie</h2>
 
-            <p style="margin-bottom: 1.5rem; color: #f0f0f0;">Chez <strong>Elagage Urbain TR</strong>, nous sommes fiers
+            <p style="margin-bottom: 1.5rem; color: #f0f0f0;">Chez <strong>Élagage Urbain TR</strong>, nous sommes fiers
                 de servir la communauté de <strong>Sherbrooke et ses environs</strong>. Avec une
                 expertise locale approfondie et un équipement de pointe, nous garantissons des travaux d'arboriculture
                 sécuritaires et respectueux de votre propriété. Notre équipe d'arboriculteurs certifiés connaît
@@ -282,21 +283,21 @@ include 'includes/header.php';
             </div>
 
             <!-- Avis 5 -->
-            <!-- <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
                 <div style="display: flex; align-items: center; margin-bottom: 1rem;">
                     <div
                         style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
                         RC</div>
                     <div>
-                        <h4 style="margin: 0; font-size: 1rem;">Robert Côté</h4>
+                        <h4 style="margin: 0; font-size: 1rem;">Frederic Goulet</h4>
                         <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
                     </div>
                 </div>
-                <p style="color: #555; font-style: italic; line-height: 1.6;">"Plantation de plusieurs arbres sur mon
-                    terrain. Excellents conseils sur les essences adaptées au climat de l'Estrie. Très satisfait du
-                    résultat !"</p>
-                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">Il y a 3 mois</p>
-            </div> -->
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Je le recomande fortement tres efficace
+                    et profesionelle. Super fiable et seviable il est venu en urgence pour ma maman qui etais mal pris.
+                    Merci 1000x encore"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">12-28-2025</p>
+            </div>
         </div>
 
         <div class="text-center">

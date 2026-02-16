@@ -85,16 +85,17 @@
       "areaServed": ["Sherbrooke","Magog","Orford","North Hatley","Waterville","Cookshire-Eaton","East Angus","Brompton","Ayer's Cliff","Coaticook","Windsor","Austin"]
     }
   </script>
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M6Q0W5D0YS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6Q0W5D0YS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-M6Q0W5D0YS');
-</script>
+    gtag('config', 'G-M6Q0W5D0YS');
+  </script>
+</head>
+
 
 <body>
 
