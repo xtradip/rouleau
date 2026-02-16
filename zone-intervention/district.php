@@ -9,12 +9,12 @@ $district_slug = isset($_GET['district']) ? $_GET['district'] : '';
 $city = getZoneBySlug($city_slug);
 $district = $city ? getDistrictBySlug($city_slug, $district_slug) : null;
 
-// 404 if not found
-if (!$city || !$district) {
-    header("HTTP/1.0 404 Not Found");
-    echo "<h1>Page non trouvée</h1>";
-    exit;
-}
+// // 404 if not found
+// if (!$city || !$district) {
+//     header("HTTP/1.0 404 Not Found");
+//     echo "<h1>Page non trouvée</h1>";
+//     exit;
+// }
 
 $page_title = "Élagage et Abattage d'Arbres à " . $district['name'] . ", " . $city['name'] . " | Estrie";
 $page_description = "Arboriculteur à " . $district['name'] . ", " . $city['name'] . ". Élagage, abattage d'arbres, taillage de haies de cèdres. Service professionnel. Soumission gratuite 819-212-8222.";
