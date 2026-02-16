@@ -75,27 +75,31 @@
                 <h4>Zones Desservies</h4>
                 <ul style="line-height: 2;">
                     <li><a
-                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/sherbrooke">Sherbrooke</a>
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=sherbrooke">Sherbrooke</a>
                     </li>
-                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/magog">Magog</a>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=magog">Magog</a>
                     </li>
-                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/orford">Orford</a>
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=ordford">Orford</a>
                     </li>
-                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/north-hatley">North
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=north-hatley">North
                             Hatley</a></li>
                     <li><a
-                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/waterville">Waterville</a>
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=waterville">Waterville</a>
                     </li>
                     <li><a
-                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/coaticook">Coaticook</a>
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=coaticook">Coaticook</a>
                     </li>
                     <li><a
-                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/windsor">Windsor</a>
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=windsor">Windsor</a>
                     </li>
                     <li><a
-                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/cookshire-eaton">Cookshire-Eaton</a>
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=cookshire-eaton">Cookshire-Eaton</a>
                     </li>
-                    <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/east-angus">East
+                    <li><a
+                            href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention/ville.php?ville=east-angus">East
                             Angus</a></li>
                     <li><a href="<?php echo isset($base_path) ? $base_path : ''; ?>zone-intervention">Voir toutes les
                             zones →</a></li>

@@ -36,7 +36,7 @@ include '../includes/header.php';
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
         <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h2>Arboriculteur Professionnel dans Toute l'Estrie</h2>
+            <h2>Abattage d'arbres et taillage de haies en Estrie</h2>
             <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8;">
                 Élagage Urbain TR dessert <strong>plus de 12 villes et municipalités</strong> en Estrie pour tous vos
                 besoins
@@ -58,7 +58,7 @@ include '../includes/header.php';
                 <a href="<?php echo $base_path; ?>zone-intervention/ville.php?ville=<?php echo $slug; ?>"
                     style="text-decoration: none; color: inherit;" class="zone-city-card">
                     <div
-                        style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; border-left: 4px solid var(--primary);">
+                        style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border-left: 4px solid var(--primary);">
                         <div
                             style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
                             <h3 style="margin: 0; color: var(--primary-dark);">📍
@@ -76,9 +76,9 @@ include '../includes/header.php';
                         </p>
                         <?php if (!empty($city['districts'])): ?>
                             <div style="font-size: 0.85rem; color: var(--primary); font-weight: 500;">
-                                <?php echo count($city['districts']); ?> quartier
-                                <?php echo count($city['districts']) > 1 ? 's' : ''; ?> desservi
-                                <?php echo count($city['districts']) > 1 ? 's' : ''; ?> →
+                                <?php echo count($city['districts']); ?>
+                                quartier<?php echo count($city['districts']) > 1 ? 's' : ''; ?>
+                                desservi<?php echo count($city['districts']) > 1 ? 's' : ''; ?> →
                             </div>
                         <?php endif; ?>
                     </div>
@@ -113,9 +113,9 @@ include '../includes/header.php';
 </section>
 
 <!-- CTA -->
-<section class="section-padding" style="background: var(--primary); color: white; text-align: center;">
+<section class="section-padding" style="background: var(--primary); text-align: center;">
     <div class="container">
-        <h2 style="color: white;">Votre Ville n'Est Pas Listée ?</h2>
+        <h2>Votre Ville N'est Pas Listée ?</h2>
         <p style="font-size: 1.1rem; max-width: 600px; margin: 1rem auto;">
             Nous desservons aussi d'autres municipalités de l'Estrie selon la disponibilité.
             Contactez-nous pour vérifier si nous intervenons dans votre secteur.

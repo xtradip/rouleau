@@ -13,7 +13,7 @@ if (!$city) {
     exit;
 }
 
-$page_title = "Arboriculteur à " . $city['name'] . " | Élagage Urbain TR";
+$page_title = "Abattage d'arbres et taillage de haies à " . $city['name'] . " | Élagage Urbain TR";
 $page_description = "Services d'arboriculture à " . $city['name'] . " : abattage d'arbres, élagage, taillage de haies de cèdres, plantation, déboisement. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
@@ -26,9 +26,9 @@ include '../includes/header.php';
 
 <!-- Hero Section -->
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 300px; display: flex; align-items: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 500px; display: flex; align-items: center;">
     <div class="container">
-        <h1>Arboriculteur à
+        <h1>Abattage d'arbres et taillage de haies à
             <?php echo $city['name']; ?> — Services d'Arboriculture en Estrie
         </h1>
         <p style="font-size: 1.15rem; margin: 1rem 0 2rem; color: #f0f0f0;">
@@ -65,7 +65,7 @@ include '../includes/header.php';
 <section class="section-padding">
     <div class="container">
         <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Services d'Arboriculture à
+            <h2>Abattage d'arbres et taillage de haies à
                 <?php echo $city['name']; ?>
             </h2>
             <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
@@ -81,7 +81,7 @@ include '../includes/header.php';
 <!-- Services offerts -->
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Nos Services à
+        <h2 style="text-align: center; margin-bottom: 2rem;">Nos Services d'Arboriculture à
             <?php echo $city['name']; ?>
         </h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem;">
@@ -92,7 +92,8 @@ include '../includes/header.php';
                         style="background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s ease, box-shadow 0.2s ease; height: 100%;">
                         <h3 style="margin: 0 0 0.75rem 0; font-size: 1.1rem; color: var(--primary-dark);">
                             <?php echo $service['icon']; ?>
-                            <?php echo $service['name']; ?>
+                            <?php echo $service['name']; ?> à
+                            <?php echo $city['name']; ?>
                         </h3>
                         <p style="color: var(--text-secondary); font-size: 0.95rem; margin: 0; line-height: 1.6;">
                             <?php echo str_replace('.', ' à ' . $city['name'] . '.', $service['description']); ?>

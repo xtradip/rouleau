@@ -29,11 +29,11 @@ include '../includes/header.php';
 
 <!-- Hero Section -->
 <section class="hero section-padding"
-    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 300px; display: flex; align-items: center;">
+    style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 500px; display: flex; align-items: center;">
     <div class="container">
         <h1>Élagage, Abattage d'Arbres et Taillage de Haies à
-            <?php echo $district['name']; ?>,
-            <?php echo $city['name']; ?>
+            <?php echo $city['name']; ?> dans le secteur de
+            <?php echo $district['name']; ?>
         </h1>
         <p style="font-size: 1.15rem; margin: 1rem 0 2rem; color: #f0f0f0;">
             Arboriculteur professionnel dans le secteur
@@ -84,7 +84,7 @@ include '../includes/header.php';
             <p style="font-size: 1.05rem; line-height: 1.8;">
                 <strong>Élagage Urbain TR</strong> est votre arboriculteur de confiance à
                 <strong>
-                    <?php echo $district['name']; ?>
+                    <?php echo $city['name']; ?>
                 </strong>, dans le secteur
                 <strong>
                     <?php echo $district['full_name']; ?>
