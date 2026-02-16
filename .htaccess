@@ -8,13 +8,17 @@ RewriteRule ^(.*)$ https://elagageurbaintr.ca/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://elagageurbaintr.ca/$1 [R=301,L]
 
-# Zone d'intervention - District pages
-# /zone-intervention/sherbrooke/rock-forest-elagage-abattage-arbres-et-taillage-de-haies
-RewriteRule ^zone-intervention/([a-z0-9-]+)/([a-z0-9-]+)-elagage-abattage-arbres-et-taillage-de-haies/?$ zone-intervention/district.php?ville=$1&district=$2 [L,QSA]
-
 # Zone d'intervention - City pages
-# /zone-intervention/sherbrooke
-RewriteRule ^zone-intervention/([a-z0-9-]+)/?$ zone-intervention/ville.php?ville=$1 [L,QSA]
+# /zone-intervention/abattage-arbres-taillage-haies-a-sherbrooke
+# RewriteRule ^zone-intervention/abattage-arbres-taillage-haies-a-([a-z0-9-]+)/?$ zone-intervention/ville.php?ville=$1 [L,QSA]
+# 1. Redirect old query-string URLs to the new pretty version (SEO + avoid duplicate content)
+#    301 = permanent redirect
+RewriteCond %{THE_REQUEST} /zone-intervention/ville(\.php)?\?ville=([a-zA-Z0-9-]+)\s [NC]
+RewriteRule ^zone-intervention/ville(\.php)?$ /zone-intervention/abattage-arbres-taillage-haies-a-%2? [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^zone-intervention/abattage-arbres-taillage-haies-a-([a-zA-Z0-9-]+)/?$ zone-intervention/ville.php?ville=$1 [L,QSA]
 
 # Remove .php extension from URLs (except for AJAX calls)
 # Skip if the request is for a .php file directly (like AJAX calls)
