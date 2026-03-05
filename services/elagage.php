@@ -19,6 +19,8 @@ include '../includes/header.php';
     </div>
 </section>
 
+<?php include '../contact.php'; ?>
+
 <!-- TLDR Section -->
 <section style="background-color: #f0f7f0; padding: 2rem 0;">
     <div class="container">

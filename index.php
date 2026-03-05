@@ -31,6 +31,8 @@ include 'includes/header.php';
     </div>
 </section>
 
+<?php include 'contact.php'; ?>
+
 <!-- Services Section -->
 <section id="services" class="section-padding">
     <div class="container">
