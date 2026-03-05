@@ -52,46 +52,180 @@
   <link rel="apple-touch-icon" sizes="180x180"
     href="<?php echo isset($base_path) ? $base_path : ''; ?>images/logo-180x180.png">
 
-  <!-- Schema.org LocalBusiness -->
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "additionalType": "TreeService",
+  "name": "Élagage Urbain TR",
+  "url": "https://elagageurbaintr.ca",
+  "image": "https://elagageurbaintr.ca/images/logo2.png",
+  "telephone": "+18192128222",
+  "description": "Arboriculteur certifié à Sherbrooke et en Estrie : abattage d'arbres sécuritaire, élagage professionnel, taillage de haies de cèdres, plantation, déboisement et haubanage. Soumission gratuite, intervention rapide, équipe assurée et respect des normes. Protégez votre propriété contre le verglas et les tempêtes.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4557 Rue Memphrémagog",
+    "addressLocality": "Sherbrooke",
+    "addressRegion": "QC",
+    "postalCode": "J1L 2P2",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.393956,
+    "longitude": -71.977192
+  },
+  "priceRange": "$$",
+  "openingHoursSpecification": [
     {
-      "@context": "https://schema.org",
-      "@type": "TreeService",
-      "name": "Elagage Urbain TR",
-      "image": "<?php echo isset($og_image) ? $og_image : (isset($base_path) ? $base_path : '') . 'images/logo2.png'; ?>",
-      "telephone": "819-212-8222",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "4557 Rue Memphrémagog",
-        "addressLocality": "Sherbrooke",
-        "addressRegion": "QC",
-        "postalCode": "J1L 2P2",
-        "addressCountry": "CA"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 45.393956,
-        "longitude": -71.977192
-      },
-      "url": "https://elagageurbaintr.ca",
-      "priceRange": "$$",
-      "openingHoursSpecification": [
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "12:00"
+    }
+  ],
+  "areaServed": [
+    {"@type": "City", "name": "Sherbrooke"},
+    {"@type": "City", "name": "Magog"},
+    {"@type": "City", "name": "Orford"},
+    {"@type": "City", "name": "North Hatley"},
+    {"@type": "City", "name": "Waterville"},
+    {"@type": "City", "name": "Cookshire-Eaton"},
+    {"@type": "City", "name": "East Angus"},
+    {"@type": "City", "name": "Brompton"},
+    {"@type": "City", "name": "Ayer's Cliff"},
+    {"@type": "City", "name": "Coaticook"},
+    {"@type": "City", "name": "Windsor"},
+    {"@type": "City", "name": "Austin"}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "17",
+    "bestRating": "5",
+    "worstRating": "4"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Jean-Christophe Rouleau"},
+      "datePublished": "2025-12-02",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Fait une belle coupe de haie propre."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Olivier Foisy"},
+      "datePublished": "2025-12-17",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Excellent service avec Élagage Urbain TR. Travail propre, professionnel et fiable. Très satisfait du résultat, mes haies de cèdres sont superbes !"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Marilou Breton"},
+      "datePublished": "2026-01-13",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Bon prix. Bon service. L’équipe a abattu un arbre dangereux proche de ma maison. Merci d’être intervenu rapidement. Je recommande Élagage Urbain TR!"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Jordi Audet"},
+      "datePublished": "2026-01-15",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "J'ai reçu le meilleure service d'abattage, merci infiniment pour le service ! Je recommande a tous, vous ne serez pas déçu !"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Mathieu Roberge"},
+      "datePublished": "2026-02-04",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Service impeccable, j’ai demandé une soumission pour trois arbres qui étaient tombés sur mes fils et en moins de 2h j’avais ma soumission et dans la même semaine Élagage Urbain TR sont venu couper les arbres. Ils ont été d’un professionalisme que je souhaite à tout le monde. Merci à vous."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Dicaire Marek"},
+      "datePublished": "2026-02-18",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Ils ont fait l’abattage de mes arbres la perfection! Je les recommande à tout le monde pour leur professionnalisme!!! Mon terrain a été ramasser à la perfection, très propre."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Yasser El Boudi"},
+      "datePublished": "2026-02-26",
+      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+      "reviewBody": "Super service ! J’ai fait appel à Élagage Urbain TR pour un abattage d’arbre assez gros dans ma cour à Sherbrooke et aussi pour le taillage de haies de cèdres qui avait vraiment besoin d’être redressé. Je recommande à 100 % pour tout ce qui touche l’élagage, l’abattage d’arbres ou le taillage de haies en Estrie. Merci, boulot parfait !"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "CAD",
+    "price": "0",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Soumission gratuite d'élagage ou abattage"
+    },
+    "availability": "https://schema.org/InStock"
+  },
+  "service": [
+    {"@type": "Service", "name": "Abattage d'arbres", "serviceType": "Abattage sécuritaire et démontage par sections"},
+    {"@type": "Service", "name": "Élagage d'arbres", "serviceType": "Élagage de sécurité, assainissement et éclaircissage"},
+    {"@type": "Service", "name": "Taillage de haies de cèdres", "serviceType": "Taille précise et ramassage des retailles"},
+    {"@type": "Service", "name": "Plantation d'arbres", "serviceType": "Conseils et plantation adaptée au climat de l'Estrie"},
+    {"@type": "Service", "name": "Déboisement de terrain", "serviceType": "Déboisement sélectif, essouchement et préparation de terrain"},
+    {"@type": "Service", "name": "Haubanage d'arbres", "serviceType": "Consolidation pour arbres matures et prévention de chutes"}
+  ],
+  "sameAs": [
+    "https://maps.app.goo.gl/uw1UcRu17q9qKFKd7",
+    "https://www.instagram.com/elagage_urbain_tr"
+  ],
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-          "opens": "08:00",
-          "closes": "19:00"
+          "@type": "Question",
+          "name": "Combien coûte l'abattage ou l'élagage d'un arbre à Sherbrooke ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le prix varie selon la taille de l'arbre, l'accès, les risques et la complexité. Nous offrons toujours une soumission gratuite et détaillée sur place. Nos tarifs sont compétitifs et transparents pour l'Estrie."
+          }
         },
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "09:00",
-          "closes": "12:00"
+          "@type": "Question",
+          "name": "Êtes-vous assurés et certifiés pour les travaux en hauteur ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, nous sommes pleinement assurés (responsabilité civile et travaux en hauteur) et notre équipe suit les normes arboricoles les plus strictes. Sécurité maximale pour votre propriété et nos grimpeurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps faut-il pour une intervention à Sherbrooke ou Magog ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Souvent dans les 24-72h selon l'urgence (ex. arbre dangereux). Interventions rapides et ponctuelles, même en urgence pour le verglas ou les tempêtes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Faites-vous du haubanage pour sauver un arbre mature ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, nous réalisons du haubanage professionnel pour consolider les branches et prolonger la vie des arbres précieux, surtout dans les zones venteuses de l'Estrie."
+          }
         }
-      ],
-      "areaServed": ["Sherbrooke","Magog","Orford","North Hatley","Waterville","Cookshire-Eaton","East Angus","Brompton","Ayer's Cliff","Coaticook","Windsor","Austin"]
+      ]
     }
-  </script>
+  ]
+}
+</script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6Q0W5D0YS"></script>
   <script>

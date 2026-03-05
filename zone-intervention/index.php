@@ -47,7 +47,12 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
-
+<section class="showcase">
+    <img src=" ../images/abattage-arbre-sherbrooke-1.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage-arbre-sherbrooke-4.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage2.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage-arbre-sherbrooke-3.webp" alt="Abattage d'arbres à Sherbrooke">
+</section>
 <!-- Villes desservies -->
 <section class="section-padding">
     <div class="container">
@@ -62,11 +67,11 @@ include '../includes/header.php';
                         <div
                             style="display: flex; justify-content: space-between; margin-bottom: 0.75rem; flex-direction: column;">
                             <h3 style="margin: 0; color: var(--primary-dark);">📍 Abattage d'Arbres et Taillage de Haies à
-                                <?php echo $city['name']; ?>
+                                <span style="color: var(--accent-color);"><?php echo $city['name']; ?></span>
                             </h3>
                         </div>
-                        <p
-                            style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
+                        <p style=" color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom:
+                                    0.75rem;">
                             <?php echo mb_substr($city['description'], 0, 150) . '...'; ?>
                         </p>
                         <?php if (!empty($city['districts'])): ?>

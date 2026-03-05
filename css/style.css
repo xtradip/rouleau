@@ -510,6 +510,10 @@ header {
 /* Mobile Nav */
 @media (max-width: 1200px) {
 
+    .section-padding {
+        padding: 1rem 0;
+    }
+
     .container {
         padding: 1rem 0rem;
         margin: 0 auto;
@@ -1976,4 +1980,19 @@ header {
     .haubanage-inspection-features {
         grid-template-columns: 1fr;
     }
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 2rem 0 0 0;
+}
+
+.showcase img {
+    max-height: 600px;
+    max-width: 400px;
 }

@@ -17,7 +17,7 @@ $page_title = "Abattage d'arbres et taillage de haies à " . $city['name'] . " |
 $page_description = "Services d'arboriculture à " . $city['name'] . " : abattage d'arbres, élagage, taillage de haies de cèdres, plantation, déboisement. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
-$canonical_url = "https://elagageurbaintr.ca/zone-intervention/" . $city_slug;
+$canonical_url = "https://elagageurbaintr.ca/zone-intervention/abattage-arbres-et-taillage-haies-a-" . $city_slug;
 
 include '../includes/header.php';
 ?>
@@ -78,6 +78,12 @@ include '../includes/header.php';
     </div>
 </section>
 
+<section class="showcase">
+    <img src=" ../images/abattage-arbre-sherbrooke-1.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage-arbre-sherbrooke-4.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage2.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="../images/abattage-arbre-sherbrooke-3.webp" alt="Abattage d'arbres à Sherbrooke">
+</section>
 <!-- Services offerts -->
 <section class="section-padding" style="background: var(--bg-light);">
     <div class="container">
@@ -92,7 +98,8 @@ include '../includes/header.php';
                         style="background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s ease, box-shadow 0.2s ease; height: 100%;">
                         <h3 style="margin: 0 0 0.75rem 0; font-size: 1.1rem; color: var(--primary-dark);">
                             <?php echo $service['icon']; ?>
-                            <?php echo $service['name']; ?> à
+                            <span style="color: var(--accent-color);">
+                                <?php echo $service['name']; ?></span> à
                             <?php echo $city['name']; ?>
                         </h3>
                         <p style="color: var(--text-secondary); font-size: 0.95rem; margin: 0; line-height: 1.6;">
@@ -125,7 +132,7 @@ include '../includes/header.php';
                             style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.07); transition: transform 0.3s ease, box-shadow 0.3s ease; border-left: 4px solid var(--accent);">
                             <h3 style="margin: 0 0 0.5rem 0; color: var(--primary-dark); font-size: 1.05rem;">
                                 📍 Abattage d'Arbres et Taillage de Haies à
-                                <?php echo $district['name']; ?>
+                                <span style="color: var(--accent-color);"><?php echo $district['name']; ?></span>
                             </h3>
                             <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0; line-height: 1.6;">
                                 <?php echo mb_substr($district['description'], 0, 150) . '...'; ?>

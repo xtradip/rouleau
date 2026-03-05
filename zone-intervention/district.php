@@ -16,11 +16,11 @@ $district = $city ? getDistrictBySlug($city_slug, $district_slug) : null;
 //     exit;
 // }
 
-$page_title = "Élagage et Abattage d'Arbres à " . $district['name'] . ", " . $city['name'] . " | Estrie";
+$page_title = "Abattage d'Arbres et taillage de haies à " . $district['name'] . ", " . $city['name'] . " | Estrie";
 $page_description = "Arboriculteur à " . $district['name'] . ", " . $city['name'] . ". Élagage, abattage d'arbres, taillage de haies de cèdres. Service professionnel. Soumission gratuite 819-212-8222.";
 $base_path = "../";
 $css_path = "../";
-$canonical_url = "https://elagageurbaintr.ca/zone-intervention/" . $city_slug . "/" . $district_slug . "-elagage-abattage-arbres-et-taillage-de-haies";
+$canonical_url = "https://elagageurbaintr.ca/zone-intervention/abattage-arbres-et-taillage-haies-secteur" . $district_slug . "-a-" . $city_slug;
 
 include '../includes/header.php';
 ?>
@@ -31,13 +31,15 @@ include '../includes/header.php';
 <section class="hero section-padding"
     style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/abattage2.webp'); background-size: cover; background-position: center; color: white; text-align: center; min-height: 500px; display: flex; align-items: center;">
     <div class="container">
-        <h1>Élagage, Abattage d'Arbres et Taillage de Haies à
+        <h1>Abattage d'Arbres et Taillage de Haies à
             <?php echo $city['name']; ?> dans le secteur de
             <?php echo $district['name']; ?>
         </h1>
         <p style="font-size: 1.15rem; margin: 1rem 0 2rem; color: #f0f0f0;">
             Arboriculteur professionnel dans le secteur
-            <?php echo $district['full_name']; ?><br>
+            <?php echo $district['full_name']; ?>,
+            <?php echo $city['name']; ?>
+            <br>
             Tous nos services d'arboriculture disponibles | Soumission gratuite
         </p>
         <a href="tel:8192128222" class="btn btn-accent" style="display: inline-flex; align-items: center; gap: 0.5rem;">
@@ -76,7 +78,7 @@ include '../includes/header.php';
         <div style="max-width: 800px; margin: 0 auto;">
             <h2>Arboriculteur à
                 <?php echo $city['name']; ?> dans le secteur
-                <?php echo $district['name']; ?>
+                <?php echo $district['full_name']; ?>
             </h2>
             <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
                 <?php echo $district['description']; ?>
@@ -113,7 +115,7 @@ include '../includes/header.php';
                         style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.07); transition: transform 0.2s ease, box-shadow 0.2s ease; height: 100%; border-bottom: 3px solid var(--primary);">
                         <h3 style="margin: 0 0 0.75rem 0; font-size: 1.1rem; color: var(--primary-dark);">
                             <?php echo $service['icon']; ?>
-                            <?php echo $service['name']; ?> à
+                            <span style="color: var(--accent-color);"><?php echo $service['name']; ?></span> à
                             <?php echo $city['name']; ?> dans le secteur
                             <?php echo $district['name']; ?>
                         </h3>

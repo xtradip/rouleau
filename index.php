@@ -1,6 +1,6 @@
 <?php
 // Page configuration
-$page_title = "Élagage Urbain TR | Arboriculteur à Sherbrooke & Estrie";
+$page_title = "Abattage d'arbres et taillage de haies à Sherbrooke en Estrie | Élagage Urbain TR";
 $page_description = "Arboriculteur professionnel à Sherbrooke et Estrie. Abattage, élagage, taillage de haies de cèdres, plantation, déboisement, haubanage. Soumission gratuite 819-212-8222.";
 $base_path = "";
 $css_path = "";
@@ -204,7 +204,12 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
-
+<section class="showcase">
+    <img src="images/abattage-arbre-sherbrooke-1.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="images/abattage-arbre-sherbrooke-4.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="images/abattage2.webp" alt="Abattage d'arbres à Sherbrooke">
+    <img src="images/abattage-arbre-sherbrooke-3.webp" alt="Abattage d'arbres à Sherbrooke">
+</section>
 <!-- Avis Clients Section -->
 <section class="section-padding" style="background-color: var(--bg-off-white);">
     <div class="container">
@@ -298,6 +303,117 @@ include 'includes/header.php';
                     Merci 1000x encore"</p>
                 <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">12-28-2025</p>
             </div>
+
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Jean-Christophe Rouleau</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Fait une belle coupe de haie propre"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">12-02-2025</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Olivier Foisy</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Excellent service avec Élagage Urbain TR.
+                    Travail propre, professionnel et fiable. Très satisfait du résultat, mes haies de cèdres sont
+                    superbes !"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">12-17-2025</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Marilou Breton</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Bon prix
+                    Bon service
+                    L’équipe a abattu un arbre dangereux proche de ma maison.
+                    Merci d’être intervenu rapidement
+                    Je recommande Élagage Urbain TR!"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">01-13-2026</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Jordi Audet</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"J'ai reçu le meilleure service
+                    d'abattage, merci infiniment pour le service ! Je recommande a tous, vous ne serez pas déçu !"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">01-15-2026</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Mathieu Roberge</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Service impeccable, j’ai demandé une
+                    soumission pour trois arbres qui étaient tombés sur mes fils et en moins de 2h j’avais ma soumission
+                    et dans la même semaine Élagage Urbain TR sont venu couper les arbres. Ils ont été d’un
+                    professionalisme que je souhaite à tout le monde.
+                    Merci à vous"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">02-04-2026</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Dicaire Marek</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Ils ont fait l’abattage de mes arbres la
+                    perfection! Je les recommande à tout le monde pour leur professionnalisme!!!
+                    Mon terrain a été ramasser à la perfection, très propre."</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">02-18-2026</p>
+            </div>
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; margin-right: 1rem;">
+                        RC</div>
+                    <div>
+                        <h4 style="margin: 0; font-size: 1rem;">Yasser El Boudi</h4>
+                        <div style="color: #FFB800; font-size: 1.1rem;">★★★★★</div>
+                    </div>
+                </div>
+                <p style="color: #555; font-style: italic; line-height: 1.6;">"Super service ! J’ai fait appel à Élagage
+                    Urbain TR pour un abattage d’arbre assez gros dans ma cour à Sherbrooke et aussi pour le taillage de
+                    haies de cèdres qui avait vraiment besoin d’être redressé
+
+                    Je recommande à 100 % pour tout ce qui touche l’élagage, l’abattage d’arbres ou le taillage de haies
+                    en Estrie. Merci, boulot parfait !"</p>
+                <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">02-26-2026</p>
+            </div>
+
         </div>
 
         <div class="text-center">
