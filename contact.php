@@ -267,7 +267,7 @@
         background: linear-gradient(135deg, var(--accent-color) 0%, #E65100 100%);
         color: white;
         border: none;
-        border-radius: 14px;
+        border-radius: 3px;
         font-family: var(--font-main);
         font-size: 1.1rem;
         font-weight: 800;
@@ -492,8 +492,10 @@
                                 placeholder="Votre adresse" required>
                         </div>
                         <div class="contact-form-group">
-                            <label for="contact-date">Jour d'intervention souhaité</label>
-                            <input type="date" id="contact-date" name="date_intervention" class="contact-input">
+                            <label for="contact-date">Jour d'intervention souhaité <span
+                                    style="color: #999; font-size: 12px;">(non garantie)</span></label>
+                            <input type="date" value="<?php echo date('Y-m-d'); ?>" id="contact-date"
+                                name="date_intervention" class="contact-input">
                         </div>
                     </div>
 
@@ -552,7 +554,7 @@
 
                     <div class="contact-submit-wrapper">
                         <button type="submit" class="btn-contact-submit" id="contactSubmitBtn">
-                            <span class="btn-text">📞 Demander un rappel gratuit</span>
+                            <span class="btn-text">Envoyer votre demande</span>
                             <span class="btn-loader"></span>
                         </button>
                     </div>
@@ -560,15 +562,6 @@
                     <div id="contactFeedback" class="contact-feedback"></div>
 
                 </form>
-
-                <div class="contact-guarantees">
-                    <span class="contact-guarantee">
-                        <span class="contact-guarantee-icon">✅</span> Soumission gratuite
-                    </span>
-                    <span class="contact-guarantee">
-                        <span class="contact-guarantee-icon">⚡</span> Réponse rapide
-                    </span>
-                </div>
             </div>
 
         </div>

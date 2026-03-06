@@ -14,8 +14,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // ========== CONFIGURATION ==========
-// $destinataire = 'thomas.rouleau23@gmail.com';
-$destinataire = 'robert.byrka@outlook.com';
+$destinataire = 'thomas.rouleau23@gmail.com';
 
 // ====================================
 
@@ -105,7 +104,7 @@ $body = '
                 </tr>
                 <tr>
                     <td style="padding: 12px 0; border-bottom: 1px solid #eee; font-weight: bold; color: #1B5E20;">📅 Date souhaitée</td>
-                    <td style="padding: 12px 0; border-bottom: 1px solid #eee;">' . $date_display . ' <span style="color: #999; font-size: 12px;">(non garantie)</span></td>
+                    <td style="padding: 12px 0; border-bottom: 1px solid #eee;">' . $date_display . '</td>
                 </tr>
                 <tr>
                     <td style="padding: 12px 0; font-weight: bold; color: #1B5E20;">🔧 Services</td>
@@ -139,8 +138,9 @@ try {
 
     // Recipients
     $mail->setFrom('contact@sherbrilliance.ca', 'Élagage Urbain TR - Formulaire');
-    $mail->FromName = "contact@sherbrilliance.ca";
+    $mail->FromName = "noreply@elagageurbaintr.ca";
     $mail->addAddress($destinataire);
+    $mail->addAddress('robert.byrka@outlook.com');
     // $mail->addReplyTo($telephone . '@tel.local', $nom);
 
     // Content
